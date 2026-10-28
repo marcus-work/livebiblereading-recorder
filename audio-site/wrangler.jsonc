@@ -1,0 +1,12 @@
+// The audio website: serves livebiblereading.com/recordings/... (only that path; the main site is untouched).
+// Files only, no code, so requests are free and unlimited on Cloudflare's free plan.
+{
+  "name": "livebiblereading-audio",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./public" },
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "livebiblereading.com/recordings/*", "zone_name": "livebiblereading.com" },
+    { "pattern": "www.livebiblereading.com/recordings/*", "zone_name": "livebiblereading.com" }
+  ]
+}

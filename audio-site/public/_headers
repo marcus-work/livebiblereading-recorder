@@ -1,0 +1,5 @@
+# Each recording folder (e.g. kjv-onyx-1) never changes once published; a new recording gets a new folder name.
+/recordings/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+  X-Content-Type-Options: nosniff
