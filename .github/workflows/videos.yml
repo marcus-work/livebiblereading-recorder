@@ -1,0 +1,97 @@
+# Makes the YouTube show: one video per Bible book (66), plus thumbnails, titles, descriptions and an upload guide.
+# Run it from the Actions tab: "Make YouTube videos" -> "Run workflow". Takes about 1-2 hours. Results: Releases -> youtube-<set>.
+name: Make YouTube videos
+
+on:
+  workflow_dispatch:
+    inputs:
+      set:
+        description: "Which recording to use"
+        default: "kjv-onyx-1"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  book:
+    name: Video for book ${{ matrix.book }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        book: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33,
+               34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q pillow
+      - name: Get this book's recordings from the backup
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BB=$(printf '%02d' ${{ matrix.book }})
+          gh release download "${{ inputs.set }}" -p "${{ inputs.set }}-book-$BB.zip" -D rec
+          mkdir -p rec/book && unzip -q rec/*.zip -d rec/book
+      - name: Make the video
+        run: python recorder/make_videos.py --book ${{ matrix.book }} --dir rec/book --out videos
+      - uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ matrix.book }}
+          path: videos/
+          compression-level: 0
+          retention-days: 14
+
+  package:
+    name: Package the show
+    needs: book
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -q pillow
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: video-*
+          path: videos
+          merge-multiple: true
+      - name: Thumbnails, titles, descriptions and guide
+        run: |
+          python recorder/kit.py --index results/${{ inputs.set }}/index.json --out youtube-kit
+          cp recorder/UPLOAD-GUIDE.txt youtube-kit/
+          ls videos | wc -l
+      - name: Zip into downloads under 2 GB each
+        run: |
+          mkdir -p out
+          (cd youtube-kit && zip -qr ../out/0-Start-here-thumbnails-titles-guide.zip .)
+          python - <<'PY'
+          import os, subprocess
+          files = sorted(os.listdir("videos")); groups, cur, size = [], [], 0
+          for f in files:
+              s = os.path.getsize(f"videos/{f}")
+              if cur and size + s > 1_900_000_000: groups.append(cur); cur, size = [], 0
+              cur.append(f); size += s
+          if cur: groups.append(cur)
+          for n, g in enumerate(groups, 1):
+              name = f"out/{n}-Videos-{g[0][:2]}-to-{g[-1][:2]}.zip"
+              subprocess.run(["zip", "-q", "-0", "-j", name] + [f"videos/{f}" for f in g], check=True)
+              print(name, len(g), "videos")
+          PY
+      - name: Publish as a release (downloads)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="youtube-${{ inputs.set }}"
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "YouTube show: ${{ inputs.set }}" --notes "Download 0-Start-here first. It has the thumbnails, titles, descriptions and the upload guide. Then the video zips."
+          gh release upload "$TAG" out/*.zip --clobber
+          echo "Downloads ready: Releases -> $TAG" >> "$GITHUB_STEP_SUMMARY"
