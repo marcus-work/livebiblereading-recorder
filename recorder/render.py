@@ -49,7 +49,24 @@ def spoken_book(name):
 def clean(text):
     """Text as it should be heard (the screen keeps the original)."""
     text = text.replace("æ", "ae").replace("Æ", "Ae").replace("…", "...").replace("—", ", ").replace("’", "'")
-    return re.sub(r"\b([A-Z])([A-Z]+)\b", lambda m: m.group(1) + m.group(2).lower(), text)   # LORD -> Lord
+    # words in capitals are read as ordinary words: LORD -> Lord, ALZARÉ -> Alzaré
+    return re.sub(r"\b[^\W\d_]{2,}\b", lambda m: m.group(0)[0] + m.group(0)[1:].lower() if m.group(0).isupper() else m.group(0), text)
+
+
+ORD_ES = {"1 ": ("Primero de ", "Primera de "), "2 ": ("Segundo de ", "Segunda de "), "3 ": ("Tercera de ", "Tercera de ")}
+
+
+def spoken_book_es(name, bi):
+    for a, (m, f) in ORD_ES.items():
+        if name.startswith(a):
+            return (f if bi >= 39 else m) + name[2:]          # letters (New Testament) are "Primera de Corintios"
+    return name
+
+
+def intro_of(name, bi, c, lang):
+    if lang.startswith("es"):
+        return f"Salmo {c}." if bi == 18 else ((f"{spoken_book_es(name, bi)}. Capítulo 1." if name[0].isdigit() else f"El libro de {name}. Capítulo 1.") if c == 1 else f"{spoken_book_es(name, bi)}, capítulo {c}.")
+    return f"Psalm {c}." if bi == 18 else (f"The book of {spoken_book(name)}. Chapter 1." if c == 1 else f"{spoken_book(name)}, chapter {c}.")
 
 
 class Voice:
@@ -88,7 +105,7 @@ class Voice:
 def render(voice, bible, bi, c, verses, gap, out):
     base = f"{out}/{bi:02d}-{c:03d}"
     name = bible[bi][0]
-    intro = f"Psalm {c}." if bi == 18 else (f"The book of {spoken_book(name)}. Chapter 1." if c == 1 else f"{spoken_book(name)}, chapter {c}.")
+    intro = intro_of(name, bi, c, voice.lang)
     a = voice.say(intro)
     parts, marks, pos, retried = [a, np.zeros(int(SR * INTRO_PAUSE), dtype=np.float32)], [], 0, 0
     pos = len(a) + int(SR * INTRO_PAUSE)
@@ -130,6 +147,8 @@ def main():
     ap.add_argument("--out", default="out")
     a = ap.parse_args()
     bible = json.load(open(a.bible))
+    if a.lang.startswith("es") and a.pronounce == "recorder/pronounce.json":
+        a.pronounce = "recorder/pronounce-es.json"          # English name fixes don't apply to Spanish
     pron = json.load(open(a.pronounce)) if os.path.exists(a.pronounce) else {}
     pron = {k: v for k, v in pron.items() if not k.startswith("_")}
     chs = chapters_of(bible)

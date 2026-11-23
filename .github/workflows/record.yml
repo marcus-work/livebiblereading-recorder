@@ -22,7 +22,7 @@ on:
         description: "Seconds of quiet between verses"
         default: "1.35"
       lang:
-        description: "Language code for pronunciation (en-us, or es for Spanish)"
+        description: "Language code for pronunciation (en-us; es-419 = Latin American Spanish; es = Spain)"
         default: "en-us"
       only:
         description: "Leave empty for the whole Bible. Or a test: e.g. 0:1,18:23 (book index:chapter)"
@@ -150,6 +150,22 @@ jobs:
         if: inputs.only == '' && inputs.publish
         with:
           node-version: 22
+      - name: Keep the recordings that are already online (e.g. English while Spanish is added)
+        if: inputs.only == '' && inputs.publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for s in $(ls results); do
+            [ "$s" = "${{ inputs.set }}" ] && continue
+            gh release view "$s" >/dev/null 2>&1 || continue
+            echo "keeping $s"
+            mkdir -p "audio-site/public/recordings/$s" "keep/$s"
+            gh release download "$s" -p "$s-book-*.zip" -D "keep/$s"
+            for z in keep/$s/*.zip; do unzip -q -o "$z" -d "audio-site/public/recordings/$s"; rm "$z"; done
+            cp results/$s/index.json results/$s/clock.json "audio-site/public/recordings/$s/" 2>/dev/null || true
+            test -s "audio-site/public/recordings/$s/index.json" || { echo "::error::$s has no index.json; stopping so nothing online is lost."; exit 1; }
+          done
+          echo "Sets going online:"; ls audio-site/public/recordings/
       - name: Publish to livebiblereading.com/recordings/
         if: inputs.only == '' && inputs.publish
         env:

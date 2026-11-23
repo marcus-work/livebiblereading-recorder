@@ -1,0 +1,66 @@
+LIVE BIBLE READING — YOUTUBE SHOW: UPLOAD GUIDE
+================================================
+
+WHAT'S IN THIS FOLDER
+  thumbnails/      one picture per book, e.g. 19-Psalms.jpg
+  descriptions/    one text file per book: the Title and the Description (with chapter timestamps), ready to paste
+  episode-list.csv the whole list: book, season, episode, video file, thumbnail, title, length
+  show-artwork-16x9.jpg        artwork for the show / playlists
+  channel-banner-2560x1440.jpg banner for your channel page
+The videos are in the other downloads (1-Videos-..., 2-Videos-..., ...). The file names match: 19-Psalms.mp4 goes with
+thumbnails/19-Psalms.jpg and descriptions/19-Psalms.txt.
+
+The show:   The Whole Bible, Read Aloud
+  Season 1  Old Testament  (episodes 1-39, Genesis to Malachi)
+  Season 2  New Testament  (episodes 1-27, Matthew to Revelation)
+
+
+ONCE, BEFORE THE FIRST UPLOAD (10 minutes)
+1. Verify the channel so you can upload long videos and custom thumbnails:
+   youtube.com/verify  -> get a code by text message.
+2. Save time on every upload: YouTube Studio -> Settings -> Upload defaults
+   - Basic info: Visibility: Public.   Tags: Bible, KJV, audio Bible, King James Bible, Bible audio, scripture
+   - Advanced settings: Audience: "No, it's not made for kids".   Category: Education.   Video language: English.
+   - Save.
+3. Make the two playlists (the "seasons"):
+   YouTube Studio -> Content -> Playlists -> New playlist
+   - "The Whole Bible, Read Aloud — Season 1: Old Testament"
+   - "The Whole Bible, Read Aloud — Season 2: New Testament"
+   Description for both: "The whole Bible, read aloud from the King James Version, one book per episode. Hear it live,
+   together, 24/7: https://livebiblereading.com"
+4. Channel banner: YouTube Studio -> Customization -> Branding -> Banner image -> channel-banner-2560x1440.jpg
+
+
+UPLOADING (up to 15 videos at a time; about 1-2 hours in total, in as many sittings as you like)
+For each batch:
+1. YouTube Studio -> Create -> Upload videos -> select up to 15 .mp4 files (start with 01 to 15).
+2. For each video in the list, click it and:
+   a. Open its matching file in descriptions/ (e.g. 01-Genesis.txt).
+      Copy the TITLE line into Title. Copy everything under DESCRIPTION into Description.
+   b. Thumbnail: Upload file -> thumbnails/01-Genesis.jpg
+   c. Playlists: tick Season 1 (books 01-39) or Season 2 (books 40-66).
+   d. Next, Next, Next -> Publish (or Schedule, see tip below).
+3. Next batch: 16-30, then 31-45, 46-60, 61-66.
+
+Tip: you can publish everything at once, or schedule one or two a day (Visibility -> Schedule). A steady drip gives
+YouTube a reason to show the channel to people again and again; either way works.
+
+
+MAKING IT A "SHOW"
+1. Put each playlist in episode order: Content -> Playlists -> open the playlist -> Sort -> Date added (oldest),
+   or drag them into order 1, 2, 3...
+2. If YouTube offers it for your channel: on the playlist's menu (the three dots) choose "Set as show" or "Set as
+   podcast", type: Serial (order matters). The option's name has changed over time; if you don't see it, ordinary
+   playlists in order work fine.
+3. Channel home page: Customization -> Layout -> Featured sections -> Add section
+   - "Live now" (the 24/7 stream, when it's running)
+   - "Single playlist" -> Season 1, then "Single playlist" -> Season 2
+   Publish.
+
+
+AFTER IT'S UP
+- Each video's description links to livebiblereading.com: that's where listeners can join the live reading and buy
+  the reading a coffee.
+- Check YouTube Studio -> Analytics once a month: which books get watched, and where viewers come from.
+- Chapters: YouTube turns the timestamps in each description into clickable chapters automatically (books with 3+
+  chapters). It can take a few hours after upload.
