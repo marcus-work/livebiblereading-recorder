@@ -1,0 +1,56 @@
+{
+ "hook": "The book of Daniel.",
+ "intro": [
+  "Daniel is about faith in a foreign land. Taken to Babylon as a young man, Daniel stays loyal to God under four kings.",
+  "Chapters one to six are the stories: the fiery furnace, the writing on the wall, and the lions' den.",
+  "Chapters seven to twelve are Daniel's visions of empires rising and falling, and of God's kingdom, which will never end.",
+  "Tradition holds that Daniel wrote it.",
+  "Listen for courage, and the steady message: the most High ruleth in the kingdom of men."
+ ],
+ "card": {
+  "who": "Daniel (by tradition)",
+  "parts": "Ch. 1–6: stories of faith in Babylon | Ch. 7–12: visions of the kingdoms",
+  "key": "The fiery furnace (3) · Writing on the wall (5) · The lions' den (6) · The Son of man (7)",
+  "listen": "Courage · faithfulness · God's kingdom"
+ },
+ "next": "Hosea: a love that won't let go",
+ "next_say": "Hosea, a love that won't let go",
+ "palette": [
+  [
+   24,
+   16,
+   10
+  ],
+  [
+   80,
+   48,
+   24
+  ],
+  [
+   226,
+   170,
+   90
+  ]
+ ],
+ "symbol": "crown",
+ "titles": {
+  "1": "Daniel and his friends in Babylon",
+  "2": "The king's dream of a great statue",
+  "3": "The fiery furnace",
+  "4": "The king's dream of a tree",
+  "5": "The writing on the wall",
+  "6": "Daniel in the lions' den",
+  "7": "Four beasts; the Son of man",
+  "8": "The ram and the goat",
+  "9": "Daniel's prayer; the seventy weeks",
+  "10": "A vision by the river",
+  "11": "Kings of the north and south",
+  "12": "The time of the end"
+ },
+ "famous": {
+  "3": "The fiery furnace",
+  "5": "The writing on the wall",
+  "6": "Daniel in the lions' den",
+  "7:13": "\"One like the Son of man\""
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "hook": "The book of Lamentations.",
+ "intro": [
+  "Lamentations is five poems of grief, written after Babylon destroyed Jerusalem.",
+  "Chapters one and two mourn the ruined city. Chapter three, at the very centre, finds hope: his compassions fail not; they are new every morning.",
+  "Chapters four and five end in prayer.",
+  "Tradition holds that Jeremiah wrote it.",
+  "Listen for how the Bible makes room for grief, and how faith holds on inside it."
+ ],
+ "card": {
+  "who": "Jeremiah (by tradition)",
+  "parts": "Ch. 1–2: a city in ruins | Ch. 3: hope at the centre | Ch. 4–5: prayer",
+  "key": "Great is thy faithfulness (3)",
+  "listen": "Grief · faithfulness · hope"
+ },
+ "next": "Ezekiel: visions of God's glory",
+ "next_say": "Ezekiel, a prophet's visions of God's glory",
+ "palette": [
+  [
+   18,
+   18,
+   22
+  ],
+  [
+   50,
+   48,
+   58
+  ],
+  [
+   160,
+   140,
+   120
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "Jerusalem sits alone",
+  "2": "The LORD's anger",
+  "3": "\"Great is thy faithfulness\"",
+  "4": "The siege remembered",
+  "5": "A prayer for restoration"
+ },
+ "famous": {
+  "3:23": "\"They are new every morning: great is thy faithfulness\""
+ }
+}

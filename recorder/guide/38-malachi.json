@@ -1,0 +1,46 @@
+{
+ "hook": "The book of Malachi.",
+ "intro": [
+  "Malachi is the last book of the Old Testament.",
+  "In chapters one and two, God answers the people's tired questions, and calls out careless worship.",
+  "In chapters three and four, he promises a messenger who will prepare the way, and the rising of the Sun of righteousness.",
+  "Little is known of Malachi, whose name means my messenger.",
+  "After this book, about four hundred years pass before the New Testament. Listen for the promise of the one who is coming."
+ ],
+ "card": {
+  "who": "Malachi",
+  "parts": "Ch. 1–2: careless worship | Ch. 3–4: the messenger, and the Sun of righteousness",
+  "key": "My messenger (3) · Will a man rob God? (3) · The Sun of righteousness (4)",
+  "listen": "Faithfulness · the coming Lord"
+ },
+ "next": "Matthew: the life of Jesus, and the New Testament begins",
+ "next_say": "the Gospel of Matthew, where the New Testament begins",
+ "palette": [
+  [
+   24,
+   18,
+   12
+  ],
+  [
+   80,
+   56,
+   30
+  ],
+  [
+   230,
+   180,
+   100
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "\"I have loved you\"; careless sacrifices",
+  "2": "Faithless priests; faithfulness in marriage",
+  "3": "My messenger; \"Will a man rob God?\"",
+  "4": "The Sun of righteousness; Elijah will come"
+ },
+ "famous": {
+  "3:1": "\"I will send my messenger\"",
+  "4:2": "\"The Sun of righteousness\""
+ }
+}

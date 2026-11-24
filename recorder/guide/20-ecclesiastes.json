@@ -1,0 +1,54 @@
+{
+ "hook": "The book of Ecclesiastes.",
+ "intro": [
+  "Ecclesiastes is an honest search for meaning in life, by a teacher who had tried everything.",
+  "In chapters one and two, he finds that wealth, pleasure and work all pass away, like a breath. Chapters three to eleven weigh up time, wisdom, and how to live well.",
+  "Chapter twelve gives his conclusion: remember God while you are young.",
+  "Tradition holds that King Solomon wrote it.",
+  "Listen for its famous lines: to every thing there is a season, and a time to every purpose under the heaven."
+ ],
+ "card": {
+  "who": "Solomon (by tradition)",
+  "parts": "Ch. 1–2: nothing satisfies | Ch. 3–11: time, wisdom, living well | Ch. 12: remember thy Creator",
+  "key": "A time for everything (3) · Two are better than one (4) · Remember thy Creator (12)",
+  "listen": "Meaning · time · fearing God"
+ },
+ "next": "Song of Solomon: a song of love",
+ "next_say": "the Song of Solomon, a song of love",
+ "palette": [
+  [
+   24,
+   22,
+   22
+  ],
+  [
+   70,
+   66,
+   62
+  ],
+  [
+   190,
+   170,
+   140
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "\"Vanity of vanities\"",
+  "2": "Pleasure and work are not enough",
+  "3": "\"To every thing there is a season\"",
+  "4": "\"Two are better than one\"",
+  "5": "Careful words before God",
+  "6": "Riches without enjoyment",
+  "7": "Wisdom for hard times",
+  "8": "No one knows the future",
+  "9": "Enjoy life with those you love",
+  "10": "A little folly",
+  "11": "\"Cast thy bread upon the waters\"",
+  "12": "\"Remember now thy Creator\""
+ },
+ "famous": {
+  "3:1": "\"To every thing there is a season\"",
+  "12:13": "\"Fear God, and keep his commandments\""
+ }
+}

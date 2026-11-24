@@ -1,0 +1,73 @@
+{
+ "hook": "The first book of Chronicles.",
+ "intro": [
+  "First Chronicles retells Israel's story. It was written for people coming home from exile, who needed to remember who they were.",
+  "Chapters one to nine are family lists, from Adam to the return from Babylon. They can feel long, but they say something important: every family matters to God.",
+  "Chapters ten to twenty-nine focus on King David, his worship, and his preparations for the temple.",
+  "Tradition holds that Ezra wrote it.",
+  "Listen for joyful worship, and David's prayer in chapter twenty-nine: Thine, O LORD, is the greatness."
+ ],
+ "card": {
+  "who": "Ezra (by tradition)",
+  "parts": "Ch. 1–9: family lists, Adam to the exile | Ch. 10–29: the reign of David",
+  "key": "David's psalm of thanks (16) · God's promise (17) · David's prayer (29)",
+  "listen": "Identity · worship · God's promises"
+ },
+ "next": "2 Chronicles: Solomon to the exile",
+ "next_say": "the Second Book of Chronicles, from Solomon to the exile",
+ "palette": [
+  [
+   26,
+   20,
+   30
+  ],
+  [
+   72,
+   56,
+   86
+  ],
+  [
+   214,
+   176,
+   110
+  ]
+ ],
+ "symbol": "harp",
+ "titles": {
+  "1": "From Adam to Esau's line",
+  "2": "The family of Judah",
+  "3": "David's descendants",
+  "4": "More of Judah, and Simeon",
+  "5": "The tribes east of the Jordan",
+  "6": "The Levites and their cities",
+  "7": "Six more tribes",
+  "8": "The family of Benjamin",
+  "9": "Those who returned to Jerusalem",
+  "10": "The death of Saul",
+  "11": "David made king; his mighty men",
+  "12": "David's supporters",
+  "13": "Uzza and the ark",
+  "14": "David's household and victories",
+  "15": "The ark brought up with joy",
+  "16": "David's psalm of thanks",
+  "17": "God's promise to David",
+  "18": "David's victories",
+  "19": "War with Ammon",
+  "20": "Rabbah taken; giants defeated",
+  "21": "The census and the threshing floor",
+  "22": "David prepares for the temple",
+  "23": "The Levites' duties",
+  "24": "The priests' divisions",
+  "25": "The temple musicians",
+  "26": "Gatekeepers and treasurers",
+  "27": "The army and its leaders",
+  "28": "David charges Solomon",
+  "29": "Gifts for the temple; David's prayer"
+ },
+ "famous": {
+  "16": "David's psalm of thanks",
+  "17": "God's promise to David",
+  "29:11": "\"Thine, O LORD, is the greatness\""
+ },
+ "display": "the First Book of Chronicles"
+}

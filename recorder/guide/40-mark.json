@@ -1,0 +1,61 @@
+{
+ "hook": "The Gospel of Mark.",
+ "intro": [
+  "Mark is the shortest and fastest-moving Gospel. One of its favourite words is straightway, meaning at once.",
+  "Chapters one to eight show Jesus' power: healing, teaching, and calming storms, until Peter declares that he is the Christ.",
+  "Chapters nine to sixteen follow the road to Jerusalem, the cross, and the empty tomb.",
+  "Tradition holds that Mark wrote it, drawing on Peter's memories.",
+  "Listen for the question at its centre, in chapter eight: But whom say ye that I am?"
+ ],
+ "card": {
+  "who": "Mark (by tradition)",
+  "parts": "Ch. 1–8: who is this man? | Ch. 9–16: the road to the cross, and the empty tomb",
+  "key": "Calming the storm (4) · Whom say ye that I am? (8) · The cross (15) · He is risen (16)",
+  "listen": "Who Jesus is · following him"
+ },
+ "next": "Luke: the careful account",
+ "next_say": "the Gospel of Luke, the most detailed account of Jesus' life",
+ "palette": [
+  [
+   30,
+   20,
+   14
+  ],
+  [
+   90,
+   56,
+   30
+  ],
+  [
+   220,
+   170,
+   100
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "John the Baptist; Jesus begins",
+  "2": "A paralysed man healed; Levi called",
+  "3": "The twelve chosen",
+  "4": "The sower; calming the storm",
+  "5": "Legion; Jairus' daughter",
+  "6": "Rejected at Nazareth; five thousand fed",
+  "7": "What defiles; a deaf man hears",
+  "8": "\"Whom say ye that I am?\"",
+  "9": "The transfiguration; a boy healed",
+  "10": "Children blessed; Bartimaeus",
+  "11": "The triumphal entry",
+  "12": "The greatest commandment; the widow's mites",
+  "13": "Signs of the end",
+  "14": "The Last Supper; Gethsemane",
+  "15": "The crucifixion",
+  "16": "\"He is risen\""
+ },
+ "famous": {
+  "4:39": "\"Peace, be still\"",
+  "8:29": "\"Thou art the Christ\"",
+  "15": "The crucifixion",
+  "16:6": "\"He is risen\""
+ },
+ "display": "the Gospel of Mark"
+}

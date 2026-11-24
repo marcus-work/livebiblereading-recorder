@@ -1,0 +1,75 @@
+{
+ "hook": "The first book of Samuel.",
+ "intro": [
+  "First Samuel tells how Israel got its first kings. It's named after Samuel, the prophet who anointed them.",
+  "Chapters one to seven: Samuel's birth and calling. Chapters eight to fifteen: Israel asks for a king, and Saul is chosen, then rejected.",
+  "Chapters sixteen to thirty-one: young David is anointed, defeats Goliath, and runs for his life from Saul.",
+  "Its author isn't named; tradition credits Samuel and later prophets.",
+  "Listen for the difference between how people look on the outside, and what God sees in the heart."
+ ],
+ "card": {
+  "who": "Not named (Samuel and others, by tradition)",
+  "parts": "Ch. 1–7: Samuel | Ch. 8–15: King Saul | Ch. 16–31: David rises",
+  "key": "Speak, Lord (3) · David anointed (16) · David and Goliath (17)",
+  "listen": "Listening to God · the heart · faithfulness"
+ },
+ "next": "2 Samuel: the reign of King David",
+ "next_say": "the Second Book of Samuel, the reign of King David",
+ "palette": [
+  [
+   20,
+   22,
+   34
+  ],
+  [
+   52,
+   58,
+   96
+  ],
+  [
+   200,
+   160,
+   90
+  ]
+ ],
+ "symbol": "crown",
+ "titles": {
+  "1": "Hannah prays for a son",
+  "2": "Hannah's song; Eli's sons",
+  "3": "\"Speak; for thy servant heareth\"",
+  "4": "The ark is captured",
+  "5": "The ark among the Philistines",
+  "6": "The ark returns",
+  "7": "Samuel judges Israel",
+  "8": "Israel asks for a king",
+  "9": "Saul meets Samuel",
+  "10": "Saul anointed",
+  "11": "Saul rescues Jabesh",
+  "12": "Samuel's farewell",
+  "13": "Saul's impatience",
+  "14": "Jonathan's bold attack",
+  "15": "Saul rejected",
+  "16": "David anointed",
+  "17": "David and Goliath",
+  "18": "Jonathan and David; Saul's jealousy",
+  "19": "Saul tries to kill David",
+  "20": "Jonathan warns David",
+  "21": "David flees",
+  "22": "The cave of Adullam",
+  "23": "David saves Keilah",
+  "24": "David spares Saul",
+  "25": "Nabal and Abigail",
+  "26": "David spares Saul again",
+  "27": "David among the Philistines",
+  "28": "Saul and the witch of Endor",
+  "29": "The Philistines send David away",
+  "30": "David recovers what was taken",
+  "31": "The death of Saul"
+ },
+ "famous": {
+  "3": "\"Speak; for thy servant heareth\"",
+  "16:7": "\"The LORD looketh on the heart\"",
+  "17": "David and Goliath"
+ },
+ "display": "the First Book of Samuel"
+}

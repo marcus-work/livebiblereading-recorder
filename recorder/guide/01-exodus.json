@@ -1,0 +1,85 @@
+{
+ "hook": "The book of Exodus.",
+ "intro": [
+  "Exodus means going out. It's the story of how God rescued Israel from slavery in Egypt, and made them his own people.",
+  "It moves in three parts. Chapters one to eighteen: slavery, the call of Moses, the plagues, the Passover, and the crossing of the Red Sea.",
+  "Chapters nineteen to twenty-four: Mount Sinai, where God gives the Ten Commandments. Chapters twenty-five to forty: the tabernacle, the tent where God would live among his people.",
+  "Tradition holds that Moses wrote it.",
+  "As you listen, watch for the Passover lamb, and God's promise to be with his people."
+ ],
+ "card": {
+  "who": "Moses (by tradition)",
+  "parts": "Ch. 1–18: rescue from Egypt | Ch. 19–24: the law at Mount Sinai | Ch. 25–40: the tabernacle",
+  "key": "Burning bush (3) · Passover (12) · Red Sea (14) · Ten Commandments (20)",
+  "listen": "Rescue · covenant · God with his people"
+ },
+ "next": "Leviticus: how a holy God lives among his people",
+ "next_say": "Leviticus, how a holy God lives among his people",
+ "palette": [
+  [
+   10,
+   20,
+   40
+  ],
+  [
+   24,
+   60,
+   96
+  ],
+  [
+   150,
+   130,
+   90
+  ]
+ ],
+ "symbol": "waves",
+ "titles": {
+  "1": "Israel enslaved in Egypt",
+  "2": "The birth of Moses",
+  "3": "The burning bush",
+  "4": "Moses' signs; Aaron joins him",
+  "5": "\"Let my people go\"; harder labour",
+  "6": "God's promise renewed",
+  "7": "Staff to serpent; water to blood",
+  "8": "Frogs, lice and flies",
+  "9": "Livestock, boils and hail",
+  "10": "Locusts and darkness",
+  "11": "The last plague announced",
+  "12": "The first Passover",
+  "13": "The firstborn; the pillar of cloud",
+  "14": "Crossing the Red Sea",
+  "15": "The song of Moses",
+  "16": "Manna and quail",
+  "17": "Water from the rock; Amalek defeated",
+  "18": "Jethro's advice",
+  "19": "Israel at Mount Sinai",
+  "20": "The Ten Commandments",
+  "21": "Laws about servants and injuries",
+  "22": "Laws about property and justice",
+  "23": "Justice, sabbaths and feasts",
+  "24": "The covenant sealed",
+  "25": "The ark and the table",
+  "26": "The tabernacle",
+  "27": "The altar and the courtyard",
+  "28": "The priests' garments",
+  "29": "Ordaining the priests",
+  "30": "The incense altar and anointing oil",
+  "31": "Bezaleel; the sabbath sign",
+  "32": "The golden calf",
+  "33": "\"My presence shall go with thee\"",
+  "34": "New tablets; God's glory passes by",
+  "35": "Gifts for the tabernacle",
+  "36": "The workers build",
+  "37": "The ark, table and lampstand made",
+  "38": "The altar and court made",
+  "39": "The priests' garments made",
+  "40": "The tabernacle set up; the glory fills it"
+ },
+ "famous": {
+  "3": "The burning bush",
+  "12": "The Passover",
+  "14": "Crossing the Red Sea",
+  "20": "The Ten Commandments",
+  "32": "The golden calf"
+ }
+}

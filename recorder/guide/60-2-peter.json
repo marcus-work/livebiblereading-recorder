@@ -1,0 +1,44 @@
+{
+ "hook": "The second letter of Peter.",
+ "intro": [
+  "Second Peter was written near the end of Peter's life, as a reminder: grow in your faith, and beware of false teachers.",
+  "Chapter one urges growth in goodness and knowledge. Chapter two warns against false teachers. Chapter three answers those who mock the Lord's return: with the Lord, one day is as a thousand years.",
+  "Listen for the last line: grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ."
+ ],
+ "card": {
+  "who": "Peter",
+  "parts": "Ch. 1: grow | Ch. 2: false teachers | Ch. 3: the day of the Lord",
+  "key": "Add to your faith (1) · One day as a thousand years (3)",
+  "listen": "Growth · truth · patience"
+ },
+ "next": "1 John: God is love",
+ "next_say": "John's first letter, about the love of God",
+ "palette": [
+  [
+   20,
+   20,
+   28
+  ],
+  [
+   56,
+   56,
+   80
+  ],
+  [
+   220,
+   180,
+   120
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "Grow in grace; the word of prophecy",
+  "2": "False teachers",
+  "3": "The day of the Lord"
+ },
+ "famous": {
+  "3:8": "\"One day is with the Lord as a thousand years\"",
+  "3:18": "\"Grow in grace\""
+ },
+ "display": "Peter's second letter"
+}

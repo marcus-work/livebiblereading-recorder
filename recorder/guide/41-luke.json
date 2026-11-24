@@ -1,0 +1,70 @@
+{
+ "hook": "The Gospel of Luke.",
+ "intro": [
+  "Luke is the most detailed account of Jesus' life, written by a careful historian for a man named Theophilus.",
+  "Chapters one to nine: the birth of Jesus, with the shepherds and the angels, and his ministry in Galilee.",
+  "Chapters ten to nineteen: the long journey to Jerusalem, full of parables found only in Luke, like the good Samaritan and the prodigal son. Chapters twenty to twenty-four: the cross, and the risen Jesus.",
+  "Tradition holds that Luke, a doctor and a companion of Paul, wrote it.",
+  "Listen for Jesus' care for outsiders: the poor, women, the sick, and the lost."
+ ],
+ "card": {
+  "who": "Luke (by tradition)",
+  "parts": "Ch. 1–9: birth, and ministry in Galilee | Ch. 10–19: the journey to Jerusalem | Ch. 20–24: the cross and resurrection",
+  "key": "The Christmas story (2) · The good Samaritan (10) · The prodigal son (15) · Emmaus (24)",
+  "listen": "Compassion · the lost found · joy"
+ },
+ "next": "John: that ye might believe",
+ "next_say": "the Gospel of John, written that ye might believe",
+ "palette": [
+  [
+   22,
+   26,
+   30
+  ],
+  [
+   60,
+   76,
+   90
+  ],
+  [
+   220,
+   190,
+   130
+  ]
+ ],
+ "symbol": "sheep",
+ "titles": {
+  "1": "Births foretold; Mary's song",
+  "2": "The birth of Jesus; the shepherds",
+  "3": "John the Baptist; the family line",
+  "4": "Temptation; rejected at Nazareth",
+  "5": "The great catch of fish; Levi called",
+  "6": "Lord of the sabbath; the Beatitudes",
+  "7": "The centurion; the widow's son; a forgiven woman",
+  "8": "The sower; Jairus' daughter",
+  "9": "Five thousand fed; the transfiguration",
+  "10": "The good Samaritan; Mary and Martha",
+  "11": "The Lord's Prayer; ask, seek, knock",
+  "12": "The rich fool; \"Take no thought\"",
+  "13": "The narrow door",
+  "14": "The great supper; counting the cost",
+  "15": "The lost sheep, the lost coin, the prodigal son",
+  "16": "The shrewd steward; the rich man and Lazarus",
+  "17": "Ten lepers healed",
+  "18": "The persistent widow; the Pharisee and the publican",
+  "19": "Zacchaeus; the triumphal entry",
+  "20": "Questions in the temple",
+  "21": "The widow's offering; signs of the end",
+  "22": "The Last Supper; Peter's denial",
+  "23": "The crucifixion",
+  "24": "The empty tomb; the road to Emmaus"
+ },
+ "famous": {
+  "2": "The birth of Jesus",
+  "10:30": "The good Samaritan",
+  "15": "The prodigal son",
+  "23": "The crucifixion",
+  "24": "The resurrection"
+ },
+ "display": "the Gospel of Luke"
+}

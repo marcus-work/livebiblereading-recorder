@@ -1,0 +1,48 @@
+{
+ "hook": "The first letter of John.",
+ "intro": [
+  "First John is a letter about knowing God, and knowing that we belong to him.",
+  "Across five chapters, John returns again and again to three marks of real faith: believing in Jesus, obeying God, and loving one another.",
+  "Tradition holds that the apostle John wrote it, late in his life.",
+  "Listen for its simplest line: God is love."
+ ],
+ "card": {
+  "who": "John (by tradition)",
+  "parts": "Ch. 1–5: light, love, and life",
+  "key": "Walk in the light (1) · What manner of love (3) · God is love (4)",
+  "listen": "Love · assurance · truth"
+ },
+ "next": "2 John: walk in truth and love",
+ "next_say": "John's second letter",
+ "palette": [
+  [
+   30,
+   18,
+   22
+  ],
+  [
+   90,
+   50,
+   60
+  ],
+  [
+   230,
+   180,
+   140
+  ]
+ ],
+ "symbol": "dove",
+ "titles": {
+  "1": "Walk in the light",
+  "2": "Love, not the world",
+  "3": "\"Behold, what manner of love\"",
+  "4": "\"God is love\"",
+  "5": "Overcoming the world; eternal life"
+ },
+ "famous": {
+  "1:9": "\"If we confess our sins\"",
+  "3:1": "\"Behold, what manner of love\"",
+  "4:8": "\"God is love\""
+ },
+ "display": "John's first letter"
+}

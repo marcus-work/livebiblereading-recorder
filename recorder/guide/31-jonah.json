@@ -1,0 +1,46 @@
+{
+ "hook": "The book of Jonah.",
+ "intro": [
+  "Jonah is the story of a prophet who ran the other way.",
+  "In chapter one, God sends Jonah to Nineveh, Israel's enemy, and he sails off in the opposite direction, ending up inside a great fish. In chapter two he prays.",
+  "In chapter three, Nineveh listens and repents. In chapter four, Jonah is angry that God shows them mercy.",
+  "Tradition credits Jonah himself.",
+  "Listen for the last question, which God leaves for us to answer: should not I spare Nineveh?"
+ ],
+ "card": {
+  "who": "Jonah (by tradition)",
+  "parts": "Ch. 1–2: running, and the great fish | Ch. 3–4: Nineveh repents; Jonah sulks",
+  "key": "The great fish (1) · Jonah's prayer (2) · Nineveh repents (3)",
+  "listen": "Obedience · mercy · second chances"
+ },
+ "next": "Micah: do justly, love mercy",
+ "next_say": "Micah, the prophet of justice and mercy",
+ "palette": [
+  [
+   10,
+   22,
+   36
+  ],
+  [
+   24,
+   64,
+   90
+  ],
+  [
+   150,
+   180,
+   170
+  ]
+ ],
+ "symbol": "waves",
+ "titles": {
+  "1": "Jonah runs; the great fish",
+  "2": "Jonah's prayer from the fish",
+  "3": "Nineveh repents",
+  "4": "Jonah's anger, and God's mercy"
+ },
+ "famous": {
+  "1:17": "The great fish",
+  "3": "Nineveh repents"
+ }
+}

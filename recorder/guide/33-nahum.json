@@ -1,0 +1,43 @@
+{
+ "hook": "The book of Nahum.",
+ "intro": [
+  "Nahum announces the fall of Nineveh, capital of Assyria, the cruel empire that had crushed so many nations.",
+  "Chapter one describes the power of God, who is slow to anger, and a stronghold in the day of trouble. Chapters two and three picture Nineveh's fall.",
+  "Little is known of Nahum, whose name means comfort.",
+  "Listen for comfort to the oppressed: the LORD is good, a strong hold in the day of trouble."
+ ],
+ "card": {
+  "who": "Nahum",
+  "parts": "Ch. 1: the power of God | Ch. 2–3: Nineveh falls",
+  "key": "The LORD is good, a strong hold (1:7)",
+  "listen": "God's justice · comfort"
+ },
+ "next": "Habakkuk: a prophet's honest questions",
+ "next_say": "Habakkuk, a prophet's honest questions",
+ "palette": [
+  [
+   26,
+   14,
+   14
+  ],
+  [
+   80,
+   30,
+   30
+  ],
+  [
+   200,
+   120,
+   80
+  ]
+ ],
+ "symbol": "city",
+ "titles": {
+  "1": "\"Slow to anger, and great in power\"",
+  "2": "Nineveh attacked",
+  "3": "Woe to the bloody city"
+ },
+ "famous": {
+  "1:7": "\"The LORD is good, a strong hold\""
+ }
+}

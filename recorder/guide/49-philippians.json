@@ -1,0 +1,48 @@
+{
+ "hook": "Paul's letter to the Philippians.",
+ "intro": [
+  "Philippians is a letter of joy, written by Paul while he sat in prison.",
+  "Chapters one and two: Paul's joy in the gospel, and the humility of Christ, who made himself nothing. Chapters three and four: pressing on, and finding peace and contentment in every situation.",
+  "Paul wrote it to a church he loved, in the Greek city of Philippi.",
+  "Listen for: I can do all things through Christ which strengtheneth me."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–2: joy, and the humility of Christ | Ch. 3–4: pressing on; peace",
+  "key": "To live is Christ (1) · The mind of Christ (2) · Rejoice (4) · I can do all things (4)",
+  "listen": "Joy · humility · contentment"
+ },
+ "next": "Colossians: Christ above all",
+ "next_say": "Paul's letter to the Colossians, Christ above all",
+ "palette": [
+  [
+   24,
+   20,
+   12
+  ],
+  [
+   80,
+   64,
+   32
+  ],
+  [
+   230,
+   196,
+   110
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "\"For to me to live is Christ\"",
+  "2": "The humility of Christ",
+  "3": "Pressing toward the mark",
+  "4": "\"Rejoice in the Lord alway\""
+ },
+ "famous": {
+  "1:21": "\"For to me to live is Christ\"",
+  "2:5": "\"Let this mind be in you\"",
+  "4:4": "\"Rejoice in the Lord alway\"",
+  "4:13": "\"I can do all things through Christ\""
+ },
+ "display": "Paul's letter to the Philippians"
+}

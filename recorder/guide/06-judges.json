@@ -1,0 +1,64 @@
+{
+ "hook": "The book of Judges.",
+ "intro": [
+  "Judges is named for the leaders God raised up to rescue Israel, in the years after Joshua and before Israel had a king.",
+  "The same cycle repeats: the people turn from God, trouble comes, they cry out, and God sends a deliverer.",
+  "Chapters one and two set the scene. Chapters three to sixteen tell of the judges, including Deborah, Gideon and Samson. Chapters seventeen to twenty-one show how far things fell.",
+  "Its author isn't named; tradition credits Samuel.",
+  "Listen for the book's closing words: every man did that which was right in his own eyes."
+ ],
+ "card": {
+  "who": "Not named (Samuel, by tradition)",
+  "parts": "Ch. 1–2: the cycle begins | Ch. 3–16: the judges | Ch. 17–21: Israel at its lowest",
+  "key": "Deborah (4) · Gideon (6–7) · Samson and Delilah (16)",
+  "listen": "The cycle · God's mercy · the need for a true king"
+ },
+ "next": "Ruth: a story of loyalty and love",
+ "next_say": "Ruth, a short story of loyalty and love",
+ "palette": [
+  [
+   28,
+   16,
+   16
+  ],
+  [
+   80,
+   40,
+   30
+  ],
+  [
+   190,
+   130,
+   70
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "The unfinished conquest",
+  "2": "A generation that forgot",
+  "3": "Othniel, Ehud and Shamgar",
+  "4": "Deborah and Barak",
+  "5": "The song of Deborah",
+  "6": "Gideon is called",
+  "7": "Gideon's three hundred",
+  "8": "Gideon's later years",
+  "9": "Abimelech's rule",
+  "10": "Tola, Jair, and Israel's cry",
+  "11": "Jephthah's vow",
+  "12": "Shibboleth; minor judges",
+  "13": "The birth of Samson",
+  "14": "Samson's riddle",
+  "15": "Samson and the jawbone",
+  "16": "Samson and Delilah",
+  "17": "Micah's idols",
+  "18": "The tribe of Dan moves",
+  "19": "A crime at Gibeah",
+  "20": "War against Benjamin",
+  "21": "Wives for Benjamin"
+ },
+ "famous": {
+  "4": "Deborah",
+  "7": "Gideon's three hundred",
+  "16": "Samson and Delilah"
+ }
+}

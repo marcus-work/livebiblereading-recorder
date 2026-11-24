@@ -1,0 +1,70 @@
+{
+ "hook": "The book of Leviticus.",
+ "intro": [
+  "Leviticus is named after the tribe of Levi, Israel's priests. Its big question: how can a holy God live among imperfect people?",
+  "Chapters one to seven describe the offerings. Chapters eight to ten, the first priests. Chapters eleven to sixteen, being clean and unclean, ending with the Day of Atonement.",
+  "Chapters seventeen to twenty-seven are a call to holiness in everyday life, including: love thy neighbour as thyself.",
+  "Tradition holds that Moses wrote it.",
+  "It's the most detailed book of the law, so don't worry about every rule. Listen for one word: holy."
+ ],
+ "card": {
+  "who": "Moses (by tradition)",
+  "parts": "Ch. 1–7: the offerings | Ch. 8–16: priests, purity, the Day of Atonement | Ch. 17–27: holy living",
+  "key": "Day of Atonement (16) · Love thy neighbour (19) · The feasts (23)",
+  "listen": "Holiness · sacrifice · forgiveness"
+ },
+ "next": "Numbers: forty years in the wilderness",
+ "next_say": "Numbers, forty years in the wilderness",
+ "palette": [
+  [
+   34,
+   14,
+   12
+  ],
+  [
+   90,
+   36,
+   24
+  ],
+  [
+   200,
+   150,
+   80
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "The burnt offering",
+  "2": "The grain offering",
+  "3": "The peace offering",
+  "4": "The sin offering",
+  "5": "Guilt and making amends",
+  "6": "More on the offerings",
+  "7": "The priests' share",
+  "8": "Aaron and his sons ordained",
+  "9": "The first sacrifices; fire from the LORD",
+  "10": "Nadab and Abihu",
+  "11": "Clean and unclean animals",
+  "12": "After childbirth",
+  "13": "Skin diseases",
+  "14": "Cleansing and healing",
+  "15": "Bodily discharges",
+  "16": "The Day of Atonement",
+  "17": "The life is in the blood",
+  "18": "Laws of family and marriage",
+  "19": "\"Love thy neighbour as thyself\"",
+  "20": "Penalties for serious sins",
+  "21": "Holiness of the priests",
+  "22": "Holy offerings",
+  "23": "The feasts of the LORD",
+  "24": "The lamp, the bread, and a blasphemer",
+  "25": "The sabbath year and the Jubilee",
+  "26": "Blessings and warnings",
+  "27": "Vows and dedications"
+ },
+ "famous": {
+  "16": "The Day of Atonement",
+  "19:18": "\"Love thy neighbour as thyself\"",
+  "23": "The feasts of the LORD"
+ }
+}

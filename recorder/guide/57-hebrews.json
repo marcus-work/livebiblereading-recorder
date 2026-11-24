@@ -1,0 +1,58 @@
+{
+ "hook": "The letter to the Hebrews.",
+ "intro": [
+  "Hebrews was written to Jewish Christians tempted to give up, and go back. Its message: Jesus is greater than everything that came before.",
+  "Chapters one to ten show Jesus as greater than the angels, greater than Moses, and the perfect high priest and sacrifice.",
+  "Chapters eleven to thirteen call for faith and endurance, with a great list of heroes of faith.",
+  "Its author isn't named.",
+  "Listen for chapter eleven, and its opening line: Now faith is the substance of things hoped for."
+ ],
+ "card": {
+  "who": "Not named",
+  "parts": "Ch. 1–10: Jesus, greater than all | Ch. 11–13: faith and endurance",
+  "key": "An anchor of the soul (6) · By faith (11) · Run the race (12) · The same for ever (13)",
+  "listen": "Faith · endurance · Jesus our priest"
+ },
+ "next": "James: faith that works",
+ "next_say": "the letter of James, about faith that works",
+ "palette": [
+  [
+   22,
+   18,
+   30
+  ],
+  [
+   62,
+   50,
+   84
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "God has spoken by his Son",
+  "2": "Jesus, made like his brothers",
+  "3": "Greater than Moses",
+  "4": "A rest for God's people",
+  "5": "Jesus, our high priest",
+  "6": "Hope, an anchor of the soul",
+  "7": "A priest like Melchisedec",
+  "8": "A better covenant",
+  "9": "The perfect sacrifice",
+  "10": "Once for all; hold fast",
+  "11": "By faith: the heroes of faith",
+  "12": "Run the race, looking unto Jesus",
+  "13": "\"Jesus Christ the same yesterday, and to day, and for ever\""
+ },
+ "famous": {
+  "4:12": "\"The word of God is quick, and powerful\"",
+  "11:1": "\"Now faith is the substance of things hoped for\"",
+  "12:1": "\"Let us run with patience\"",
+  "13:8": "\"The same yesterday, and to day, and for ever\""
+ },
+ "display": "the letter to the Hebrews"
+}

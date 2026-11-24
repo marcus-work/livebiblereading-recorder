@@ -1,0 +1,41 @@
+{
+ "hook": "The book of Obadiah.",
+ "intro": [
+  "Obadiah is the shortest book in the Old Testament: just one chapter.",
+  "It's a warning to Edom, the nation descended from Esau, for its pride, and for cheering when Jerusalem fell. It ends with hope: the kingdom shall be the LORD's.",
+  "Nothing is known of Obadiah except his name, which means servant of the LORD.",
+  "Listen for the danger of pride: the pride of thine heart hath deceived thee."
+ ],
+ "card": {
+  "who": "Obadiah",
+  "parts": "Ch. 1: Edom's pride, and the LORD's kingdom",
+  "key": "The pride of thine heart (1:3) · The kingdom shall be the LORD's (1:21)",
+  "listen": "Pride · justice · God's kingdom"
+ },
+ "next": "Jonah: the runaway prophet",
+ "next_say": "Jonah, the runaway prophet",
+ "palette": [
+  [
+   30,
+   16,
+   14
+  ],
+  [
+   90,
+   40,
+   30
+  ],
+  [
+   200,
+   140,
+   90
+  ]
+ ],
+ "symbol": "mountain",
+ "titles": {
+  "1": "Edom's pride brought low"
+ },
+ "famous": {
+  "1:3": "\"The pride of thine heart hath deceived thee\""
+ }
+}

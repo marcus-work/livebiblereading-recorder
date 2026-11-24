@@ -1,0 +1,62 @@
+{
+ "hook": "Paul's letter to the Romans.",
+ "intro": [
+  "Romans is Paul's fullest explanation of the good news, written to the Christians in Rome, a church he had not yet visited.",
+  "Chapters one to eight explain how all have sinned, and how we are made right with God through faith in Jesus, ending with: nothing can separate us from the love of God.",
+  "Chapters nine to eleven wrestle with God's plan for Israel. Chapters twelve to sixteen show how to live it out: a living sacrifice, love, and peace.",
+  "Paul wrote it about fifty-seven years after Christ's birth.",
+  "It's dense, so don't worry about catching every argument. Listen for chapter eight, one of the most loved chapters in the Bible."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–8: the good news explained | Ch. 9–11: God's plan for Israel | Ch. 12–16: living it out",
+  "key": "All have sinned (3) · Peace with God (5) · Nothing can separate us (8) · A living sacrifice (12)",
+  "listen": "Grace · faith · new life"
+ },
+ "next": "1 Corinthians: a letter to a troubled church",
+ "next_say": "Paul's first letter to the Corinthians, a letter to a troubled church",
+ "palette": [
+  [
+   20,
+   18,
+   34
+  ],
+  [
+   56,
+   50,
+   96
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "Not ashamed of the gospel",
+  "2": "God judges fairly",
+  "3": "All have sinned",
+  "4": "Abraham, justified by faith",
+  "5": "Peace with God",
+  "6": "Dead to sin, alive in Christ",
+  "7": "The struggle with sin",
+  "8": "No condemnation; nothing can separate us",
+  "9": "God's choice",
+  "10": "\"Whosoever shall call upon the name of the Lord\"",
+  "11": "Israel's future",
+  "12": "A living sacrifice",
+  "13": "Love fulfils the law",
+  "14": "Don't judge one another",
+  "15": "Bear with the weak",
+  "16": "Greetings to friends in Rome"
+ },
+ "famous": {
+  "3:23": "\"For all have sinned\"",
+  "5:8": "\"While we were yet sinners, Christ died for us\"",
+  "8:28": "\"All things work together for good\"",
+  "8:38": "\"Nothing can separate us from the love of God\"",
+  "12:1": "\"A living sacrifice\""
+ },
+ "display": "Paul's letter to the Romans"
+}

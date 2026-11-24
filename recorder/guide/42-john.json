@@ -1,0 +1,68 @@
+{
+ "hook": "The Gospel of John.",
+ "intro": [
+  "John is different from the other three Gospels. As John says himself, it's written that ye might believe.",
+  "Chapter one opens like Genesis: In the beginning was the Word. Chapters two to twelve tell of seven signs, and great I am sayings: the bread of life, the light of the world, the good shepherd.",
+  "Chapters thirteen to twenty-one slow down, to Jesus' last night with his disciples, his death, and his resurrection.",
+  "Tradition holds that John, the disciple whom Jesus loved, wrote it.",
+  "If you only listen to one book, many people would say: start here. Listen for the word believe."
+ ],
+ "card": {
+  "who": "John (by tradition)",
+  "parts": "Ch. 1–12: signs and I am sayings | Ch. 13–21: the last night, the cross, the risen Lord",
+  "key": "The Word (1) · For God so loved (3) · Lazarus (11) · The way, the truth (14) · The empty tomb (20)",
+  "listen": "Believing · life · love"
+ },
+ "next": "Acts: the church begins",
+ "next_say": "the Acts of the Apostles, where the church begins",
+ "palette": [
+  [
+   16,
+   20,
+   36
+  ],
+  [
+   40,
+   52,
+   96
+  ],
+  [
+   230,
+   200,
+   130
+  ]
+ ],
+ "symbol": "cross",
+ "titles": {
+  "1": "\"In the beginning was the Word\"",
+  "2": "Water into wine",
+  "3": "Nicodemus: \"For God so loved the world\"",
+  "4": "The woman at the well",
+  "5": "Healing at the pool",
+  "6": "\"I am the bread of life\"",
+  "7": "At the feast of tabernacles",
+  "8": "\"I am the light of the world\"",
+  "9": "A man born blind sees",
+  "10": "\"I am the good shepherd\"",
+  "11": "Lazarus raised",
+  "12": "Anointed at Bethany; the triumphal entry",
+  "13": "Jesus washes the disciples' feet",
+  "14": "\"I am the way, the truth, and the life\"",
+  "15": "\"I am the true vine\"",
+  "16": "The Comforter promised",
+  "17": "Jesus prays for his followers",
+  "18": "Arrest and trial",
+  "19": "The crucifixion",
+  "20": "The empty tomb; Thomas believes",
+  "21": "Breakfast by the sea; \"Feed my sheep\""
+ },
+ "famous": {
+  "1": "\"In the beginning was the Word\"",
+  "3:16": "\"For God so loved the world\"",
+  "11": "Lazarus raised",
+  "14:6": "\"I am the way, the truth, and the life\"",
+  "19": "The crucifixion",
+  "20": "The empty tomb"
+ },
+ "display": "the Gospel of John"
+}

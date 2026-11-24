@@ -1,0 +1,46 @@
+{
+ "hook": "The first letter of Peter.",
+ "intro": [
+  "First Peter is a letter of hope from the apostle Peter, to Christians scattered and suffering for their faith.",
+  "Chapters one and two speak of a living hope, and a new identity as God's people. Chapters three to five show how to live well, even when treated unfairly.",
+  "Listen for: casting all your care upon him; for he careth for you."
+ ],
+ "card": {
+  "who": "Peter",
+  "parts": "Ch. 1–2: a living hope | Ch. 3–5: living well in hard times",
+  "key": "A living hope (1) · Living stones (2) · Casting all your care (5)",
+  "listen": "Hope · suffering · humility"
+ },
+ "next": "2 Peter: grow in grace",
+ "next_say": "Peter's second letter, about growing in grace",
+ "palette": [
+  [
+   18,
+   22,
+   30
+  ],
+  [
+   50,
+   62,
+   84
+  ],
+  [
+   220,
+   190,
+   130
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "A living hope",
+  "2": "Living stones; Christ's example",
+  "3": "Wives, husbands, and doing good",
+  "4": "Suffering as a Christian",
+  "5": "\"Casting all your care upon him\""
+ },
+ "famous": {
+  "1:3": "\"A lively hope\"",
+  "5:7": "\"Casting all your care upon him\""
+ },
+ "display": "Peter's first letter"
+}

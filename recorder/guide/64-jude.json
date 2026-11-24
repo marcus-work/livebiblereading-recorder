@@ -1,0 +1,42 @@
+{
+ "hook": "The letter of Jude.",
+ "intro": [
+  "Jude is a short, urgent letter by Jude, a brother of James, and by tradition, of Jesus.",
+  "It warns against false teachers, and calls believers to contend for the faith, and to keep themselves in the love of God.",
+  "Listen for its beautiful closing blessing: now unto him that is able to keep you from falling."
+ ],
+ "card": {
+  "who": "Jude",
+  "parts": "Ch. 1: contend for the faith",
+  "key": "Contend for the faith (1:3) · Able to keep you from falling (1:24)",
+  "listen": "Faithfulness · God's keeping"
+ },
+ "next": "Revelation: all things made new",
+ "next_say": "the book of Revelation, the last book of the Bible",
+ "palette": [
+  [
+   24,
+   16,
+   20
+  ],
+  [
+   72,
+   40,
+   56
+  ],
+  [
+   220,
+   170,
+   110
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "Contend for the faith"
+ },
+ "famous": {
+  "1:3": "\"Earnestly contend for the faith\"",
+  "1:24": "\"Able to keep you from falling\""
+ },
+ "display": "the letter of Jude"
+}

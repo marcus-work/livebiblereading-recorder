@@ -1,0 +1,42 @@
+{
+ "hook": "The third letter of John.",
+ "intro": [
+  "Third John is a short personal letter to a friend named Gaius, praising his kindness to travelling Christians.",
+  "It's the shortest book in the Bible.",
+  "Tradition credits the apostle John.",
+  "Listen for: I have no greater joy than to hear that my children walk in truth."
+ ],
+ "card": {
+  "who": "John (by tradition)",
+  "parts": "Ch. 1: a faithful friend",
+  "key": "No greater joy (1:4)",
+  "listen": "Hospitality · truth"
+ },
+ "next": "Jude: contend for the faith",
+ "next_say": "the letter of Jude",
+ "palette": [
+  [
+   22,
+   24,
+   26
+  ],
+  [
+   64,
+   70,
+   76
+  ],
+  [
+   220,
+   190,
+   140
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "Faithful Gaius, and Diotrephes"
+ },
+ "famous": {
+  "1:4": "\"I have no greater joy\""
+ },
+ "display": "John's third letter"
+}

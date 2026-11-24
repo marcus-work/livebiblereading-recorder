@@ -1,0 +1,45 @@
+{
+ "hook": "The book of Joel.",
+ "intro": [
+  "Joel begins with a disaster: a plague of locusts that strips the land bare. He sees in it a warning of the day of the LORD.",
+  "Chapter one mourns the plague. Chapter two calls the people to return with all their heart, and promises: I will pour out my spirit upon all flesh.",
+  "Chapter three tells of the nations judged, and God dwelling with his people.",
+  "Little is known of Joel himself.",
+  "Listen for the call: rend your heart, and not your garments."
+ ],
+ "card": {
+  "who": "Joel",
+  "parts": "Ch. 1: the locusts | Ch. 2: return, and the Spirit promised | Ch. 3: the nations judged",
+  "key": "Rend your heart (2) · I will pour out my spirit (2)",
+  "listen": "Repentance · the Spirit · God's presence"
+ },
+ "next": "Amos: let justice roll down",
+ "next_say": "Amos, the shepherd who called for justice",
+ "palette": [
+  [
+   20,
+   24,
+   12
+  ],
+  [
+   60,
+   72,
+   30
+  ],
+  [
+   200,
+   180,
+   90
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "The locust plague",
+  "2": "\"Rend your heart\"; the Spirit promised",
+  "3": "The nations judged; God dwells in Zion"
+ },
+ "famous": {
+  "2:13": "\"Rend your heart, and not your garments\"",
+  "2:28": "\"I will pour out my spirit upon all flesh\""
+ }
+}

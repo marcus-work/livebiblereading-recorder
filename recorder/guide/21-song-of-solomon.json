@@ -1,0 +1,50 @@
+{
+ "hook": "The Song of Solomon.",
+ "intro": [
+  "The Song of Solomon is a love poem: a celebration of love between a bride and her beloved.",
+  "Across eight short chapters, they speak to each other with longing and delight.",
+  "Tradition credits King Solomon.",
+  "Many readers, Jewish and Christian, have also heard in it a picture of God's love for his people. Listen for the line in chapter eight: love is strong as death."
+ ],
+ "card": {
+  "who": "Solomon (by tradition)",
+  "parts": "Ch. 1–8: a song in eight parts",
+  "key": "The rose of Sharon (2) · My beloved is mine (2) · Love is strong as death (8)",
+  "listen": "Love · delight · faithfulness"
+ },
+ "next": "Isaiah: the prophet of hope",
+ "next_say": "Isaiah, the prophet of judgement and hope",
+ "palette": [
+  [
+   30,
+   16,
+   24
+  ],
+  [
+   96,
+   46,
+   60
+  ],
+  [
+   230,
+   180,
+   140
+  ]
+ ],
+ "symbol": "dove",
+ "titles": {
+  "1": "The bride longs for her beloved",
+  "2": "\"I am the rose of Sharon\"",
+  "3": "Seeking the one my soul loves",
+  "4": "\"Thou art all fair, my love\"",
+  "5": "\"My beloved is mine\"",
+  "6": "Where is thy beloved gone?",
+  "7": "The beauty of the bride",
+  "8": "\"Love is strong as death\""
+ },
+ "famous": {
+  "2:1": "\"I am the rose of Sharon\"",
+  "8:6": "\"Love is strong as death\""
+ },
+ "display": "the Song of Solomon"
+}

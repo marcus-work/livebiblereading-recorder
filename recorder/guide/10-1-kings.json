@@ -1,0 +1,67 @@
+{
+ "hook": "The first book of Kings.",
+ "intro": [
+  "First Kings begins with Israel at its height, and ends with it split in two.",
+  "Chapters one to eleven: King Solomon, his wisdom, and the building of the temple in Jerusalem. Chapters twelve to sixteen: the kingdom divides, into Israel in the north and Judah in the south.",
+  "Chapters seventeen to twenty-two: the prophet Elijah stands against King Ahab and the worship of Baal.",
+  "Its author isn't named; tradition credits Jeremiah.",
+  "Listen for what happens when hearts turn away from God, and for the still small voice."
+ ],
+ "card": {
+  "who": "Not named (Jeremiah, by tradition)",
+  "parts": "Ch. 1–11: Solomon and the temple | Ch. 12–16: the kingdom divides | Ch. 17–22: Elijah",
+  "key": "Solomon's wisdom (3) · The temple (8) · Mount Carmel (18) · Still small voice (19)",
+  "listen": "Wisdom · faithfulness · the true God"
+ },
+ "next": "2 Kings: Elisha, and the fall of two kingdoms",
+ "next_say": "the Second Book of Kings: Elisha, and the fall of two kingdoms",
+ "palette": [
+  [
+   30,
+   24,
+   10
+  ],
+  [
+   96,
+   74,
+   30
+  ],
+  [
+   226,
+   188,
+   96
+  ]
+ ],
+ "symbol": "city",
+ "titles": {
+  "1": "Solomon made king",
+  "2": "David's charge to Solomon",
+  "3": "Solomon asks for wisdom",
+  "4": "Solomon's officials and wealth",
+  "5": "Preparing to build the temple",
+  "6": "The temple built",
+  "7": "Solomon's palace; the temple furnishings",
+  "8": "The ark brought in; Solomon's prayer",
+  "9": "God answers Solomon",
+  "10": "The queen of Sheba",
+  "11": "Solomon's heart turns away",
+  "12": "The kingdom divides",
+  "13": "The man of God from Judah",
+  "14": "Jeroboam's sin",
+  "15": "Kings of Judah and Israel",
+  "16": "Kings of Israel; Ahab",
+  "17": "Elijah and the widow",
+  "18": "Elijah on Mount Carmel",
+  "19": "The still small voice",
+  "20": "Ahab defeats Syria",
+  "21": "Naboth's vineyard",
+  "22": "Micaiah's warning; Ahab dies"
+ },
+ "famous": {
+  "3": "Solomon's wisdom",
+  "8": "The temple dedicated",
+  "18": "Elijah on Mount Carmel",
+  "19:12": "The still small voice"
+ },
+ "display": "the First Book of Kings"
+}

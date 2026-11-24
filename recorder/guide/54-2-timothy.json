@@ -1,0 +1,47 @@
+{
+ "hook": "Paul's second letter to Timothy.",
+ "intro": [
+  "Second Timothy is Paul's last letter, written from a Roman prison, knowing his death was near.",
+  "Chapters one and two urge Timothy to be strong, unashamed, and faithful. Chapters three and four warn of hard times, and point to the Scriptures, ending with Paul's farewell.",
+  "Paul wrote it to Timothy, whom he called his dearly beloved son.",
+  "Listen for his last words: I have fought a good fight, I have finished my course, I have kept the faith."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–2: be strong | Ch. 3–4: hold to Scripture; farewell",
+  "key": "Not the spirit of fear (1) · All scripture (3) · I have kept the faith (4)",
+  "listen": "Courage · Scripture · finishing well"
+ },
+ "next": "Titus: doing good",
+ "next_say": "Paul's letter to Titus, about doing good",
+ "palette": [
+  [
+   24,
+   18,
+   18
+  ],
+  [
+   72,
+   50,
+   46
+  ],
+  [
+   210,
+   170,
+   120
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "\"God hath not given us the spirit of fear\"",
+  "2": "A good soldier",
+  "3": "\"All scripture is given by inspiration of God\"",
+  "4": "\"I have kept the faith\""
+ },
+ "famous": {
+  "1:7": "\"Not… the spirit of fear\"",
+  "3:16": "\"All scripture is given by inspiration of God\"",
+  "4:7": "\"I have kept the faith\""
+ },
+ "display": "Paul's second letter to Timothy"
+}

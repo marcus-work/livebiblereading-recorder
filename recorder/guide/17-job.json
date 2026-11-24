@@ -1,0 +1,85 @@
+{
+ "hook": "The book of Job.",
+ "intro": [
+  "Job asks one of life's hardest questions: why do good people suffer?",
+  "Chapters one and two: Job loses everything, though he has done nothing wrong. Chapters three to thirty-seven: a long, poetic debate, as Job and his friends argue about why.",
+  "Chapters thirty-eight to forty-two: God himself answers, out of a whirlwind.",
+  "Its author and date aren't known. It's one of the oldest stories in the Bible.",
+  "Most of it is poetry, so let the words wash over you. Listen for Job's honesty with God, and his hope: I know that my redeemer liveth."
+ ],
+ "card": {
+  "who": "Not known",
+  "parts": "Ch. 1–2: Job loses everything | Ch. 3–37: Job and his friends | Ch. 38–42: God answers",
+  "key": "The LORD gave (1) · My redeemer liveth (19) · Where is wisdom? (28) · The whirlwind (38)",
+  "listen": "Honesty · suffering · trust"
+ },
+ "next": "Psalms: the Bible's songs and prayers",
+ "next_say": "the Psalms, the Bible's book of songs and prayers",
+ "palette": [
+  [
+   20,
+   20,
+   24
+  ],
+  [
+   60,
+   58,
+   66
+  ],
+  [
+   170,
+   150,
+   120
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "Job loses everything",
+  "2": "Job's illness; three friends arrive",
+  "3": "Job curses the day he was born",
+  "4": "Eliphaz speaks",
+  "5": "Eliphaz: God corrects",
+  "6": "Job: my grief is heavy",
+  "7": "Job: life is a breath",
+  "8": "Bildad speaks",
+  "9": "Job: who can argue with God?",
+  "10": "Job: why was I born?",
+  "11": "Zophar speaks",
+  "12": "Job: wisdom is with God",
+  "13": "Job: \"Though he slay me\"",
+  "14": "Job: \"If a man die, shall he live again?\"",
+  "15": "Eliphaz again",
+  "16": "Job: miserable comforters",
+  "17": "Job: where is my hope?",
+  "18": "Bildad again",
+  "19": "\"I know that my redeemer liveth\"",
+  "20": "Zophar again",
+  "21": "Job: why do the wicked prosper?",
+  "22": "Eliphaz's third speech",
+  "23": "Job: \"Oh that I knew where I might find him\"",
+  "24": "Job: injustice in the world",
+  "25": "Bildad's last speech",
+  "26": "Job: the greatness of God",
+  "27": "Job holds on to his integrity",
+  "28": "Where is wisdom found?",
+  "29": "Job remembers better days",
+  "30": "Job's suffering now",
+  "31": "Job's final defence",
+  "32": "Elihu speaks",
+  "33": "Elihu: God speaks in many ways",
+  "34": "Elihu: God is just",
+  "35": "Elihu: God is above us",
+  "36": "Elihu: God is great",
+  "37": "Elihu: the wonders of the storm",
+  "38": "The LORD answers out of the whirlwind",
+  "39": "The LORD: the wild animals",
+  "40": "The LORD: behemoth",
+  "41": "The LORD: leviathan",
+  "42": "Job restored"
+ },
+ "famous": {
+  "1:21": "\"The LORD gave, and the LORD hath taken away\"",
+  "19:25": "\"I know that my redeemer liveth\"",
+  "38": "God answers from the whirlwind"
+ }
+}

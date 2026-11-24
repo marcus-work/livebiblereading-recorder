@@ -1,0 +1,49 @@
+{
+ "hook": "Paul's letter to the Galatians.",
+ "intro": [
+  "Galatians is Paul's urgent letter about freedom. Some were teaching that Christians must keep the whole Jewish law to be accepted by God.",
+  "Chapters one and two tell Paul's own story. Chapters three and four explain that we are made right with God by faith, not by keeping the law.",
+  "Chapters five and six show what freedom looks like: led by the Spirit, and bearing his fruit.",
+  "Paul wrote it to churches in what is now Turkey.",
+  "Listen for the fruit of the Spirit in chapter five: love, joy, peace."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–2: Paul's story | Ch. 3–4: faith, not law | Ch. 5–6: life in the Spirit",
+  "key": "Crucified with Christ (2) · The fruit of the Spirit (5)",
+  "listen": "Freedom · faith · the Spirit"
+ },
+ "next": "Ephesians: God's family",
+ "next_say": "Paul's letter to the Ephesians, about God's family",
+ "palette": [
+  [
+   16,
+   24,
+   22
+  ],
+  [
+   40,
+   70,
+   60
+  ],
+  [
+   210,
+   190,
+   130
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "No other gospel",
+  "2": "\"I am crucified with Christ\"",
+  "3": "Faith, not the law",
+  "4": "Sons, not slaves",
+  "5": "The fruit of the Spirit",
+  "6": "Bear one another's burdens"
+ },
+ "famous": {
+  "2:20": "\"I am crucified with Christ\"",
+  "5:22": "The fruit of the Spirit"
+ },
+ "display": "Paul's letter to the Galatians"
+}

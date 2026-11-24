@@ -2,7 +2,9 @@
 
   python recorder/kit.py --index results/kjv-onyx-1/index.json --out youtube-kit
 """
-import argparse, csv, json, os, re
+import argparse, csv, json, os, re, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from key_passages import KEY
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -10,6 +12,8 @@ F = lambda name, size: ImageFont.truetype(os.path.join(HERE, "fonts", name), siz
 PAUSE = 2.0
 W, H = 1280, 720
 SITE = "https://livebiblereading.com"
+COFFEE = "https://buymeacoffee.com/livebiblereading"
+CHANNEL = "https://www.youtube.com/@LiveBibleReadingCom"
 slug = lambda n: re.sub(r"[^a-z0-9]+", "-", n.lower()).strip("-")
 
 
@@ -51,7 +55,13 @@ def fit(d, text, font_name, max_w, start, min_size=60):
     return F(font_name, min_size)
 
 
-def thumbnail(name, bi, season, ep, length, path):
+def guide_titles(bi):
+    import glob
+    f = glob.glob(os.path.join(HERE, "guide", f"{bi:02d}-*.json"))
+    return json.load(open(f[0]))["titles"] if f else {}
+
+
+def thumbnail(name, bi, season, ep, length, path, guided=False):
     nt = bi >= 39
     img = gradient(nt); d = ImageDraw.Draw(img)
     ink, gold = (245, 241, 232), (240, 201, 140)
@@ -66,11 +76,15 @@ def thumbnail(name, bi, season, ep, length, path):
     d.text((80, y), big, font=f, fill=ink)
     d.rectangle([80, 560, 200, 565], fill=gold)
     small = F("IBMPlexSans-SemiBold.ttf", 34)
-    d.text((80, 590), f"KING JAMES VERSION  ·  S{season} · E{ep}", font=small, fill=ink)
+    d.text((80, 590), f"KING JAMES VERSION  ·  BOOK {bi + 1} OF 66", font=small, fill=ink)
     tag = nice_len(length)
     tw = d.textlength(tag, font=small)
     d.rounded_rectangle([W - 110 - tw, 580, W - 70, 640], radius=12, fill=(0, 0, 0))
     d.text((W - 90 - tw, 590), tag, font=small, fill=(255, 255, 255))
+    if guided:
+        g = F("IBMPlexSans-SemiBold.ttf", 30); gw = d.textlength("GUIDED", font=g)
+        d.rounded_rectangle([W - 110 - gw, 60, W - 70, 112], radius=10, fill=(240, 201, 140))
+        d.text((W - 90 - gw, 68), "GUIDED", font=g, fill=(26, 18, 8))
     img.save(path, quality=90)
 
 
@@ -93,40 +107,76 @@ def main():
     ap.add_argument("--about", default="bible/book-about.json")
     ap.add_argument("--index", required=True)
     ap.add_argument("--out", default="youtube-kit")
+    ap.add_argument("--guided", default="", help="folder with the guided videos' .json timings: makes the Guided kit")
     a = ap.parse_args()
     bible, about, index = json.load(open(a.bible)), json.load(open(a.about)), json.load(open(a.index))
     os.makedirs(f"{a.out}/thumbnails", exist_ok=True); os.makedirs(f"{a.out}/descriptions", exist_ok=True)
     rows = []
     for bi, (name, chs) in enumerate(bible):
         season, ep = (1, bi + 1) if bi < 39 else (2, bi - 38)
-        durs = [index[f"{bi:02d}-{c:03d}"] for c, _ in chs]
-        t, starts = 0.0, []
-        for d in durs: starts.append(t); t += d + PAUSE
-        total = t - PAUSE
         base = f"{bi + 1:02d}-{name.replace(' ', '-')}"
-        title = ("Psalms — All 150 Psalms Read Aloud | King James Bible (KJV) Audio" if bi == 18 else
-                 f"{name} — The Whole Book Read Aloud | King James Bible (KJV) Audio")
-        stamps = "\n".join(f"{hms(s)} {'Psalm' if bi == 18 else name} {c}" for (c, _), s in zip(chs, starts)) if len(chs) >= 3 else ""
+        if a.guided:
+            gj = json.load(open(f"{a.guided}/{base}.json"))
+            starts, total = [s_ for _, s_ in gj["chapters"]], gj["total"]
+        else:
+            durs = [index[f"{bi:02d}-{c:03d}"] for c, _ in chs]
+            t, starts = 0.0, []
+            for d in durs: starts.append(t); t += d + PAUSE
+            total = t - PAUSE
+        bk = "Psalms" if bi == 18 else name
+        title = ("Psalms – All 150 Psalms Read Aloud | KJV Audio Bible with Text" if bi == 18 else
+                 f"{name} – Full Book Read Aloud | KJV Audio Bible with Text")
+        if a.guided:
+            title = ("Psalms – KJV Audio Bible with Text | Guided, All 150 Psalms" if bi == 18 else
+                     f"{name} – KJV Audio Bible with Text | Guided Full Book Read Aloud")
+        cname = lambda c: f"Psalm {c}" if bi == 18 else f"{name} {c}"
+        stamps = "\n".join(f"{hms(s)} {cname(c)}" for (c, _), s in zip(chs, starts)) if len(chs) >= 3 else ""
+        if a.guided:
+            gtitles = guide_titles(bi)
+            stamps = "0:00 Introduction\n" + "\n".join(f"{hms(s)} {cname(c)}" + (f": {gtitles[str(c)]}" if gtitles.get(str(c)) else "") for (c, _), s in zip(chs, starts))
+        at = {c: s for (c, _), s in zip(chs, starts)}
+        keys = [f"{hms(at[c])} {cname(c)}: {label}" for c, label in sorted(KEY.get(bi, [])) if c in at and (len(chs) >= 3 or a.guided)]
+        nxt = bible[bi + 1][0] if bi + 1 < len(bible) else ""
+        testament = "Old Testament" if season == 1 else "New Testament"
         desc = "\n".join(x for x in [
-            f"{'The Book of Psalms' if bi == 18 else 'The Book of ' + name}, read aloud from the King James Bible, chapter by chapter, with every verse on screen.",
+            (f"The complete Book of {bk}, read aloud from the King James Bible (KJV), with a short introduction, a title for every chapter, and old words explained on screen. Book {bi + 1} of 66 in the Guided Audio Bible, from Genesis to Revelation, in order."
+             if a.guided else
+             f"The complete Book of {bk}, read aloud from the King James Bible (KJV), with every verse on screen. Book {bi + 1} of 66 in The Whole Bible, Read Aloud, from Genesis to Revelation, in order."),
             "",
-            f"Hear the whole Bible read aloud live, 24/7, together with listeners around the world: {SITE}",
-            f"Read along: {SITE}/bible/{slug(name)}-1",
+            f"▶ Hear the whole Bible read aloud LIVE, 24/7, with listeners around the world (free, no ads, no sign-up): {SITE}",
+            f"📖 Read along, chapter by chapter: {SITE}/bible/{slug(name)}-1",
+            f"🌙 Falling asleep or driving? Sleep mode and car mode are on the website.",
+            f"☕ This reading is free for everyone. Help keep it on the air: {COFFEE}",
+            f"🔔 Subscribe for the whole Bible, in order: {CHANNEL}?sub_confirmation=1",
+            f"🌎 En español: {SITE}/es/",
             "",
-            f"About {name}: {about[bi]}",
+            f"About {bk}: {about[bi]}",
             "",
+            "Well-known passages" if keys else None, "\n".join(keys) if keys else None, "" if keys else None,
             "Chapters" if stamps else None, stamps if stamps else None, "" if stamps else None,
-            f"The Whole Bible, Read Aloud · Season {season} ({'Old' if season == 1 else 'New'} Testament) · Episode {ep}.",
-            "Read by a recorded digital narrator. Text: King James Version (public domain).",
+            f"Next in this series: {nxt}." if nxt else "This is the last book of the Bible. Start again from Genesis in the playlist.",
+            f"{'The Guided Audio Bible' if a.guided else 'The Whole Bible, Read Aloud'} · {testament} · Book {bi + 1} of 66.",
+            "Text: King James Version (public domain). Spot a mistake? Tell us on the website: Suggest an idea.",
             "",
-            f"#Bible #KJV #AudioBible #{name.replace(' ', '')}",
+            f"#AudioBible #KJV #{bk.replace(' ', '')}",
         ] if x is not None)
-        assert len(title) <= 100 and len(desc) <= 5000, (name, len(title), len(desc))
-        open(f"{a.out}/descriptions/{base}.txt", "w").write(f"TITLE (copy into Title):\n{title}\n\nDESCRIPTION (copy into Description):\n{desc}\n")
-        thumbnail(name, bi, season, ep, total, f"{a.out}/thumbnails/{base}.jpg")
+        if len(desc) > 5000 and a.guided:      # long books: chapter titles make it too long, so list chapters plainly
+            plain = "0:00 Introduction\n" + "\n".join(f"{hms(s_)} {cname(c)}" for (c, _), s_ in zip(chs, starts))
+            desc = desc.replace(stamps, plain)
+        tags = ", ".join(dict.fromkeys([f"{bk} audio bible", f"book of {bk}", f"{bk} KJV", f"{bk} read aloud", f"{bk} full book",
+                         "audio bible", "KJV audio bible", "King James Bible"] + (["Bible explained", "guided Bible reading"] if a.guided else []) + [ "Bible read aloud", "Bible audiobook", "whole Bible", "scripture", "Bible for sleep"]))
+        assert len(title) <= 100 and len(desc) <= 5000 and len(tags) <= 480, (name, len(title), len(desc), len(tags))
+        open(f"{a.out}/descriptions/{base}.txt", "w").write(f"TITLE (copy into Title):\n{title}\n\nDESCRIPTION (copy into Description):\n{desc}\n\nTAGS (Show more > Tags):\n{tags}\n\nPLAYLISTS: The Whole Bible, Read Aloud (KJV) + {testament}\n")
+        thumbnail(name, bi, season, ep, total, f"{a.out}/thumbnails/{base}.jpg", guided=bool(a.guided))
         rows.append([bi + 1, name, f"Season {season}", ep, base + ".mp4", base + ".jpg", title, nice_len(total)])
     with open(f"{a.out}/episode-list.csv", "w", newline="") as f:
         w = csv.writer(f); w.writerow(["#", "Book", "Season", "Episode", "Video file", "Thumbnail", "Title", "Length"]); w.writerows(rows)
+    open(f"{a.out}/PINNED-COMMENT.txt", "w").write(
+        "Post this as the first comment on every video, then tap the three dots next to it and choose Pin.\n\n"
+        "🙏 Thank you for listening. The whole Bible is also read aloud LIVE, 24/7, at " + SITE + " : everyone hears the same verse at the same moment, "
+        "with sleep mode and car mode, free and with no ads on the website. If it blesses you, you can help keep it on the air here: " + COFFEE + "\n\n"
+        "🔔 Subscribe to hear the whole Bible, book by book, in order.\n\n"
+        "Which verse spoke to you today? Share it below. 👇\n")
     show_art(f"{a.out}/show-artwork-16x9.jpg", 1280, 720)
     show_art(f"{a.out}/channel-banner-2560x1440.jpg", 2560, 1440)
     print(len(rows), "episodes")

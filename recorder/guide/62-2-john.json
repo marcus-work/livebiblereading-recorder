@@ -1,0 +1,42 @@
+{
+ "hook": "The second letter of John.",
+ "intro": [
+  "Second John is a short letter to the elect lady and her children: most likely a church, and its members.",
+  "It urges them to walk in truth and love, and to beware of false teachers.",
+  "Tradition credits the apostle John.",
+  "Listen for: that we love one another."
+ ],
+ "card": {
+  "who": "John (by tradition)",
+  "parts": "Ch. 1: truth and love",
+  "key": "Love one another (1:5)",
+  "listen": "Truth · love"
+ },
+ "next": "3 John: a letter to a faithful friend",
+ "next_say": "John's third letter",
+ "palette": [
+  [
+   26,
+   20,
+   26
+  ],
+  [
+   76,
+   56,
+   76
+  ],
+  [
+   220,
+   180,
+   150
+  ]
+ ],
+ "symbol": "dove",
+ "titles": {
+  "1": "Walk in truth and love"
+ },
+ "famous": {
+  "1:5": "\"That we love one another\""
+ },
+ "display": "John's second letter"
+}

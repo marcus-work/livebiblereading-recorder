@@ -1,0 +1,50 @@
+{
+ "hook": "The book of Micah.",
+ "intro": [
+  "Micah was a country prophet who spoke up for the poor against the powerful, in the time of Isaiah.",
+  "Chapters one to three warn Samaria and Jerusalem. Chapters four and five promise peace, and a ruler to come from little Bethlehem.",
+  "Chapters six and seven bring it home: what God really asks of us.",
+  "Tradition credits Micah himself.",
+  "Listen for one of the Bible's best-loved lines: do justly, and love mercy, and walk humbly with thy God."
+ ],
+ "card": {
+  "who": "Micah (by tradition)",
+  "parts": "Ch. 1–3: warnings | Ch. 4–5: peace, and a ruler from Bethlehem | Ch. 6–7: what God requires",
+  "key": "Swords into ploughshares (4) · Bethlehem (5) · Do justly (6) · Who is a God like thee (7)",
+  "listen": "Justice · mercy · humility"
+ },
+ "next": "Nahum: the fall of Nineveh",
+ "next_say": "Nahum, and the fall of Nineveh",
+ "palette": [
+  [
+   24,
+   20,
+   16
+  ],
+  [
+   70,
+   60,
+   44
+  ],
+  [
+   200,
+   180,
+   120
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "Judgement on Samaria and Jerusalem",
+  "2": "Woe to the greedy",
+  "3": "Corrupt leaders",
+  "4": "Swords into ploughshares",
+  "5": "A ruler from Bethlehem",
+  "6": "\"What doth the LORD require of thee?\"",
+  "7": "\"Who is a God like unto thee?\""
+ },
+ "famous": {
+  "4:3": "\"Swords into plowshares\"",
+  "5:2": "Bethlehem",
+  "6:8": "\"Do justly, and… love mercy, and… walk humbly\""
+ }
+}

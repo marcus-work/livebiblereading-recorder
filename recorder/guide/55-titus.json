@@ -1,0 +1,45 @@
+{
+ "hook": "Paul's letter to Titus.",
+ "intro": [
+  "Titus is a short letter to Paul's co-worker on the island of Crete, about building a healthy church.",
+  "Chapter one: choosing good leaders. Chapter two: teaching every age to live well. Chapter three: being ready to do good, because of God's kindness to us.",
+  "Paul wrote it late in his life.",
+  "Listen for the grace of God, which teaches us how to live."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1: leaders | Ch. 2: every age | Ch. 3: doing good",
+  "key": "The grace of God hath appeared (2) · Not by works (3)",
+  "listen": "Grace · good works"
+ },
+ "next": "Philemon: a letter about forgiveness",
+ "next_say": "Paul's letter to Philemon, about forgiveness",
+ "palette": [
+  [
+   22,
+   26,
+   22
+  ],
+  [
+   60,
+   74,
+   60
+  ],
+  [
+   210,
+   190,
+   130
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "Leaders for the church",
+  "2": "Sound teaching for every age",
+  "3": "Ready to every good work"
+ },
+ "famous": {
+  "2:11": "\"The grace of God… hath appeared\"",
+  "3:5": "\"Not by works of righteousness\""
+ },
+ "display": "Paul's letter to Titus"
+}

@@ -1,0 +1,56 @@
+{
+ "hook": "The book of Zechariah.",
+ "intro": [
+  "Zechariah, like Haggai, encouraged the exiles rebuilding the temple, through a series of night visions.",
+  "Chapters one to eight are visions and messages of hope for Jerusalem. Chapters nine to fourteen look far ahead, to a coming king.",
+  "Zechariah was a priest and a prophet, among those who returned from Babylon.",
+  "Christians hear Jesus here: a king coming lowly, riding upon an ass, and thirty pieces of silver. Listen too for: Not by might, nor by power, but by my spirit."
+ ],
+ "card": {
+  "who": "Zechariah",
+  "parts": "Ch. 1–8: night visions and hope | Ch. 9–14: the coming king",
+  "key": "Not by might (4) · Thy King cometh (9) · Whom they have pierced (12)",
+  "listen": "Hope · the coming king · God's Spirit"
+ },
+ "next": "Malachi: the last word of the Old Testament",
+ "next_say": "Malachi, the last book of the Old Testament",
+ "palette": [
+  [
+   16,
+   22,
+   30
+  ],
+  [
+   44,
+   62,
+   80
+  ],
+  [
+   210,
+   180,
+   110
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "\"Return unto me\"; the horsemen",
+  "2": "A man with a measuring line",
+  "3": "Joshua the high priest; the Branch",
+  "4": "The lampstand: \"Not by might\"",
+  "5": "The flying scroll",
+  "6": "Four chariots; the crown",
+  "7": "True fasting",
+  "8": "Jerusalem restored",
+  "9": "\"Thy King cometh… riding upon an ass\"",
+  "10": "The LORD will strengthen his people",
+  "11": "The good shepherd rejected",
+  "12": "\"They shall look upon me whom they have pierced\"",
+  "13": "A fountain for cleansing",
+  "14": "\"The LORD shall be king over all the earth\""
+ },
+ "famous": {
+  "4:6": "\"Not by might, nor by power, but by my spirit\"",
+  "9:9": "\"Thy King cometh unto thee\"",
+  "12:10": "\"Whom they have pierced\""
+ }
+}

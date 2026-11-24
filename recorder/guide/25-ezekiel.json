@@ -1,0 +1,92 @@
+{
+ "hook": "The book of Ezekiel.",
+ "intro": [
+  "Ezekiel was a priest taken to Babylon in exile, where he saw astonishing visions of God's glory.",
+  "Chapters one to twenty-four warn that Jerusalem will fall, and show God's glory leaving the temple. Chapters twenty-five to thirty-two speak to the nations.",
+  "Chapters thirty-three to forty-eight bring hope: a new heart, dry bones brought to life, and a new temple with a river flowing from it.",
+  "Tradition holds that Ezekiel wrote it himself.",
+  "Its visions are strange and vivid, so listen for the big picture: God's glory leaves, and God's glory returns."
+ ],
+ "card": {
+  "who": "Ezekiel (by tradition)",
+  "parts": "Ch. 1–24: Jerusalem will fall | Ch. 25–32: the nations | Ch. 33–48: a new heart, a new temple",
+  "key": "The vision of glory (1) · A new heart (36) · Dry bones (37) · The river of life (47)",
+  "listen": "God's glory · responsibility · renewal"
+ },
+ "next": "Daniel: faith in a foreign land",
+ "next_say": "Daniel, faith in a foreign land",
+ "palette": [
+  [
+   14,
+   20,
+   30
+  ],
+  [
+   36,
+   56,
+   80
+  ],
+  [
+   190,
+   170,
+   120
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "The vision of God's glory",
+  "2": "Ezekiel called",
+  "3": "The watchman",
+  "4": "The siege acted out",
+  "5": "The divided hair",
+  "6": "Against the mountains of Israel",
+  "7": "The end has come",
+  "8": "Idols in the temple",
+  "9": "The mark on the faithful",
+  "10": "The glory leaves the temple",
+  "11": "A new heart promised",
+  "12": "Exile acted out",
+  "13": "False prophets",
+  "14": "Idols in the heart",
+  "15": "The useless vine",
+  "16": "The unfaithful bride",
+  "17": "Two eagles and a vine",
+  "18": "\"The soul that sinneth\"",
+  "19": "A lament for Israel's princes",
+  "20": "Israel's rebellious history",
+  "21": "The sword of the LORD",
+  "22": "Jerusalem's sins",
+  "23": "Two sisters",
+  "24": "The cooking pot; Ezekiel's wife dies",
+  "25": "Against four neighbours",
+  "26": "Against Tyre",
+  "27": "A lament for Tyre",
+  "28": "The king of Tyre",
+  "29": "Against Egypt",
+  "30": "Egypt's fall",
+  "31": "The great cedar",
+  "32": "A lament for Pharaoh",
+  "33": "The watchman again; Jerusalem has fallen",
+  "34": "Bad shepherds, and the Good Shepherd",
+  "35": "Against Edom",
+  "36": "A new heart and a new spirit",
+  "37": "The valley of dry bones",
+  "38": "Gog",
+  "39": "Gog defeated",
+  "40": "The new temple",
+  "41": "The temple measured",
+  "42": "The priests' rooms",
+  "43": "The glory returns",
+  "44": "The prince and the priests",
+  "45": "The holy district",
+  "46": "Worship in the new temple",
+  "47": "The river of life",
+  "48": "\"The LORD is there\""
+ },
+ "famous": {
+  "1": "The vision of God's glory",
+  "36:26": "\"A new heart also will I give you\"",
+  "37": "The valley of dry bones",
+  "47": "The river of life"
+ }
+}

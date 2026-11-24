@@ -1,0 +1,69 @@
+{
+ "hook": "The second book of Samuel.",
+ "intro": [
+  "Second Samuel is the story of King David's reign: his greatest triumphs, and his worst failures.",
+  "Chapters one to ten: David becomes king, takes Jerusalem, brings the ark home, and receives God's promise of a lasting kingdom.",
+  "Chapters eleven to twenty: his sin with Bathsheba, and the trouble that follows in his own family. Chapters twenty-one to twenty-four close with his songs and final years.",
+  "Its author isn't named; it continues First Samuel.",
+  "Listen for God's promise to David in chapter seven, and how honestly the Bible tells the story of its heroes."
+ ],
+ "card": {
+  "who": "Not named (continues 1 Samuel)",
+  "parts": "Ch. 1–10: David's rise | Ch. 11–20: sin and its cost | Ch. 21–24: songs and last years",
+  "key": "God's promise to David (7) · Bathsheba (11) · Nathan (12) · Absalom (18)",
+  "listen": "God's promise · sin and forgiveness · honesty"
+ },
+ "next": "1 Kings: Solomon, and a kingdom divided",
+ "next_say": "the First Book of Kings: Solomon, and a kingdom divided",
+ "palette": [
+  [
+   24,
+   16,
+   30
+  ],
+  [
+   70,
+   40,
+   80
+  ],
+  [
+   210,
+   160,
+   90
+  ]
+ ],
+ "symbol": "harp",
+ "titles": {
+  "1": "David mourns Saul and Jonathan",
+  "2": "David king over Judah",
+  "3": "Abner joins David; Joab kills him",
+  "4": "Ishbosheth murdered",
+  "5": "King over all Israel; Jerusalem taken",
+  "6": "The ark comes to Jerusalem",
+  "7": "God's promise to David",
+  "8": "David's victories",
+  "9": "Kindness to Mephibosheth",
+  "10": "War with Ammon",
+  "11": "David and Bathsheba",
+  "12": "Nathan: \"Thou art the man\"",
+  "13": "Amnon and Tamar",
+  "14": "Absalom returns",
+  "15": "Absalom's rebellion",
+  "16": "David flees; Shimei curses",
+  "17": "Hushai's advice",
+  "18": "The death of Absalom",
+  "19": "David returns",
+  "20": "Sheba's revolt",
+  "21": "Famine; the Gibeonites",
+  "22": "David's song of deliverance",
+  "23": "David's last words; his mighty men",
+  "24": "The census and the plague"
+ },
+ "famous": {
+  "7": "God's promise to David",
+  "11": "David and Bathsheba",
+  "12": "\"Thou art the man\"",
+  "18:33": "\"O my son Absalom\""
+ },
+ "display": "the Second Book of Samuel"
+}

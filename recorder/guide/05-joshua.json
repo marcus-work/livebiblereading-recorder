@@ -1,0 +1,68 @@
+{
+ "hook": "The book of Joshua.",
+ "intro": [
+  "Joshua is named after Moses' successor. It tells how Israel finally entered the land God promised to Abraham.",
+  "Chapters one to twelve: crossing the Jordan, and the battles for Canaan, including the walls of Jericho. Chapters thirteen to twenty-one: the land divided among the twelve tribes.",
+  "Chapters twenty-two to twenty-four: Joshua's farewell.",
+  "Tradition holds that Joshua wrote much of it.",
+  "Listen for God's faithfulness, with every promise kept, and the call to be strong and of a good courage."
+ ],
+ "card": {
+  "who": "Joshua (by tradition)",
+  "parts": "Ch. 1–12: entering the land | Ch. 13–21: the land divided | Ch. 22–24: Joshua's farewell",
+  "key": "Be strong (1) · Jericho (6) · The sun stands still (10) · As for me and my house (24)",
+  "listen": "Courage · promises kept · choosing to serve God"
+ },
+ "next": "Judges: heroes, failures, and a people who forget",
+ "next_say": "Judges, a story of heroes, failures, and a people who keep forgetting God",
+ "palette": [
+  [
+   30,
+   24,
+   14
+  ],
+  [
+   96,
+   70,
+   36
+  ],
+  [
+   214,
+   176,
+   104
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "\"Be strong and of a good courage\"",
+  "2": "Rahab hides the spies",
+  "3": "Crossing the Jordan",
+  "4": "Twelve memorial stones",
+  "5": "Gilgal; the captain of the LORD's host",
+  "6": "The walls of Jericho",
+  "7": "Achan's sin",
+  "8": "Ai is taken",
+  "9": "The Gibeonites' trick",
+  "10": "The sun stands still",
+  "11": "Victory in the north",
+  "12": "The kings defeated",
+  "13": "Land still to take; the eastern tribes",
+  "14": "Caleb's inheritance",
+  "15": "Judah's land",
+  "16": "Ephraim's land",
+  "17": "Manasseh's land",
+  "18": "Shiloh; Benjamin's land",
+  "19": "The other tribes' land",
+  "20": "Cities of refuge",
+  "21": "Cities for the Levites",
+  "22": "The eastern tribes' altar",
+  "23": "Joshua's farewell",
+  "24": "\"As for me and my house\""
+ },
+ "famous": {
+  "1": "\"Be strong and of a good courage\"",
+  "6": "The walls of Jericho",
+  "10": "The sun stands still",
+  "24:15": "\"As for me and my house\""
+ }
+}

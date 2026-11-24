@@ -1,0 +1,76 @@
+{
+ "hook": "The Gospel of Matthew.",
+ "intro": [
+  "The New Testament begins with four Gospels, each telling the life of Jesus. Matthew is the first.",
+  "Written especially for Jewish readers, it shows Jesus as the promised king, fulfilling the Old Testament again and again.",
+  "Chapters one to four: his birth, and the start of his ministry. Chapters five to twenty-five: his teaching and miracles, including the Sermon on the Mount. Chapters twenty-six to twenty-eight: his death, his resurrection, and his last command to his followers.",
+  "Tradition holds that Matthew, a tax collector who became one of the twelve apostles, wrote it.",
+  "Listen for the phrase: that it might be fulfilled."
+ ],
+ "card": {
+  "who": "Matthew (by tradition)",
+  "parts": "Ch. 1–4: birth and beginnings | Ch. 5–25: teaching and miracles | Ch. 26–28: death and resurrection",
+  "key": "The Beatitudes (5) · The Lord's Prayer (6) · Come unto me (11) · The Great Commission (28)",
+  "listen": "The promised king · the kingdom of heaven"
+ },
+ "next": "Mark: the fast-moving Gospel",
+ "next_say": "the Gospel of Mark, the shortest and fastest-moving Gospel",
+ "palette": [
+  [
+   24,
+   16,
+   30
+  ],
+  [
+   70,
+   44,
+   90
+  ],
+  [
+   220,
+   180,
+   110
+  ]
+ ],
+ "symbol": "crown",
+ "titles": {
+  "1": "The family line and birth of Jesus",
+  "2": "The wise men; the flight to Egypt",
+  "3": "John the Baptist; Jesus baptized",
+  "4": "Temptation; the first disciples",
+  "5": "The Sermon on the Mount: the Beatitudes",
+  "6": "The Lord's Prayer; treasures in heaven",
+  "7": "Ask, seek, knock; the wise builder",
+  "8": "Healings; calming the storm",
+  "9": "Matthew called; more healings",
+  "10": "The twelve sent out",
+  "11": "John's question; \"Come unto me\"",
+  "12": "Lord of the sabbath",
+  "13": "Parables of the kingdom",
+  "14": "Five thousand fed; walking on water",
+  "15": "Clean hearts; a mother's faith",
+  "16": "\"Thou art the Christ\"",
+  "17": "The transfiguration",
+  "18": "Forgive seventy times seven",
+  "19": "Marriage; the rich young man",
+  "20": "The workers in the vineyard",
+  "21": "The triumphal entry; the temple cleansed",
+  "22": "The great commandment",
+  "23": "Woe to the hypocrites",
+  "24": "Signs of the end",
+  "25": "Ten virgins; the talents; sheep and goats",
+  "26": "The Last Supper; Gethsemane; arrest",
+  "27": "Trial and crucifixion",
+  "28": "The resurrection; the Great Commission"
+ },
+ "famous": {
+  "2": "The wise men",
+  "5": "The Sermon on the Mount",
+  "6:9": "The Lord's Prayer",
+  "11:28": "\"Come unto me\"",
+  "16:16": "\"Thou art the Christ\"",
+  "27": "The crucifixion",
+  "28": "The resurrection"
+ },
+ "display": "the Gospel of Matthew"
+}

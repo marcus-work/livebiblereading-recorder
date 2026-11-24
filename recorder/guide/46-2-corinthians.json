@@ -1,0 +1,58 @@
+{
+ "hook": "Paul's second letter to the Corinthians.",
+ "intro": [
+  "Second Corinthians is Paul's most personal letter, written to a church that had hurt him, and that he still loved.",
+  "Chapters one to seven explain his ministry: comfort in trouble, and treasure in clay jars. Chapters eight and nine are about generous giving.",
+  "Chapters ten to thirteen defend his work against false teachers, and share his weakness.",
+  "Paul wrote it soon after First Corinthians.",
+  "Listen for what God told Paul in chapter twelve: My grace is sufficient for thee: for my strength is made perfect in weakness."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–7: comfort and ministry | Ch. 8–9: generous giving | Ch. 10–13: strength in weakness",
+  "key": "God of all comfort (1) · A new creature (5) · A cheerful giver (9) · My grace is sufficient (12)",
+  "listen": "Comfort · generosity · grace in weakness"
+ },
+ "next": "Galatians: freedom in Christ",
+ "next_say": "Paul's letter to the Galatians, about freedom in Christ",
+ "palette": [
+  [
+   22,
+   20,
+   28
+  ],
+  [
+   62,
+   56,
+   78
+  ],
+  [
+   210,
+   180,
+   130
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "The God of all comfort",
+  "2": "Forgiveness and a change of plans",
+  "3": "A new covenant",
+  "4": "Treasure in earthen vessels",
+  "5": "A new creature",
+  "6": "Now is the day of salvation",
+  "7": "Godly sorrow and joy",
+  "8": "The grace of giving",
+  "9": "\"God loveth a cheerful giver\"",
+  "10": "Paul's authority",
+  "11": "Paul's sufferings",
+  "12": "\"My grace is sufficient for thee\"",
+  "13": "Final warnings"
+ },
+ "famous": {
+  "1:3": "\"The God of all comfort\"",
+  "5:17": "\"He is a new creature\"",
+  "9:7": "\"God loveth a cheerful giver\"",
+  "12:9": "\"My grace is sufficient for thee\""
+ },
+ "display": "Paul's second letter to the Corinthians"
+}

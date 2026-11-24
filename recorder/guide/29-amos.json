@@ -1,0 +1,51 @@
+{
+ "hook": "The book of Amos.",
+ "intro": [
+  "Amos was a shepherd and a fig farmer, called to warn the wealthy northern kingdom of Israel.",
+  "Chapters one and two judge the nations, then turn on Israel itself. Chapters three to six condemn worship without justice.",
+  "Chapters seven to nine are five visions, ending with a promise of restoration.",
+  "Amos spoke about seven hundred and sixty years before Christ.",
+  "Listen for his famous cry: let judgment run down as waters, and righteousness as a mighty stream."
+ ],
+ "card": {
+  "who": "Amos",
+  "parts": "Ch. 1–2: the nations, then Israel | Ch. 3–6: worship without justice | Ch. 7–9: five visions",
+  "key": "Prepare to meet thy God (4) · Let judgment run down (5) · The plumbline (7)",
+  "listen": "Justice · true worship · restoration"
+ },
+ "next": "Obadiah: the shortest book of the Old Testament",
+ "next_say": "Obadiah, the shortest book of the Old Testament",
+ "palette": [
+  [
+   28,
+   22,
+   14
+  ],
+  [
+   84,
+   64,
+   36
+  ],
+  [
+   210,
+   170,
+   100
+  ]
+ ],
+ "symbol": "sheep",
+ "titles": {
+  "1": "Judgement on the nations",
+  "2": "Judah and Israel too",
+  "3": "Chosen, and responsible",
+  "4": "\"Prepare to meet thy God\"",
+  "5": "\"Let judgment run down as waters\"",
+  "6": "Woe to them that are at ease",
+  "7": "Locusts, fire, and a plumbline",
+  "8": "A basket of summer fruit",
+  "9": "David's fallen tent rebuilt"
+ },
+ "famous": {
+  "4:12": "\"Prepare to meet thy God\"",
+  "5:24": "\"Let judgment run down as waters\""
+ }
+}

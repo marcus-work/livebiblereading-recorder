@@ -1,0 +1,42 @@
+{
+ "hook": "Paul's letter to Philemon.",
+ "intro": [
+  "Philemon is Paul's shortest letter: a personal note asking a friend to forgive.",
+  "Onesimus had run away from his master, Philemon, and become a Christian through Paul. Paul sends him back, asking Philemon to receive him not as a servant, but as a brother.",
+  "Paul wrote it from prison.",
+  "Listen for how the good news changes relationships."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1: a plea for a runaway",
+  "key": "Receive him as myself (1:17)",
+  "listen": "Forgiveness · brotherhood"
+ },
+ "next": "Hebrews: Jesus, better than all",
+ "next_say": "the letter to the Hebrews, about Jesus, greater than all",
+ "palette": [
+  [
+   24,
+   20,
+   14
+  ],
+  [
+   74,
+   60,
+   40
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "dove",
+ "titles": {
+  "1": "Receive him as a brother"
+ },
+ "famous": {
+  "1:16": "\"A brother beloved\""
+ },
+ "display": "Paul's letter to Philemon"
+}

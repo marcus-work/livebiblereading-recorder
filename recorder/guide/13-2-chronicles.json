@@ -1,0 +1,80 @@
+{
+ "hook": "The second book of Chronicles.",
+ "intro": [
+  "Second Chronicles continues the story, from King Solomon to the fall of Jerusalem, told through the kings of Judah.",
+  "Chapters one to nine: Solomon builds the temple, and God's glory fills it. Chapters ten to thirty-six: the kings of Judah, some who sought God and some who turned away, until Babylon destroys Jerusalem.",
+  "It ends with a door opening: King Cyrus of Persia lets the people go home.",
+  "Tradition holds that Ezra wrote it.",
+  "Listen for the promise in chapter seven: if my people shall humble themselves, and pray, then will I hear from heaven."
+ ],
+ "card": {
+  "who": "Ezra (by tradition)",
+  "parts": "Ch. 1–9: Solomon and the temple | Ch. 10–36: the kings of Judah, to the exile",
+  "key": "The glory fills the temple (5) · If my people (7) · The battle is God's (20)",
+  "listen": "Seeking God · humility · a door of hope"
+ },
+ "next": "Ezra: going home and rebuilding",
+ "next_say": "Ezra, the story of going home and rebuilding",
+ "palette": [
+  [
+   30,
+   22,
+   12
+  ],
+  [
+   100,
+   70,
+   30
+  ],
+  [
+   230,
+   190,
+   100
+  ]
+ ],
+ "symbol": "city",
+ "titles": {
+  "1": "Solomon asks for wisdom",
+  "2": "Preparing to build",
+  "3": "The temple built",
+  "4": "The temple furnishings",
+  "5": "The ark brought in; the glory fills the house",
+  "6": "Solomon's prayer",
+  "7": "\"If my people… shall humble themselves\"",
+  "8": "Solomon's achievements",
+  "9": "The queen of Sheba; Solomon dies",
+  "10": "The kingdom divides",
+  "11": "Rehoboam strengthens Judah",
+  "12": "Egypt invades",
+  "13": "Abijah's victory",
+  "14": "Asa seeks the LORD",
+  "15": "Asa's reforms",
+  "16": "Asa's last years",
+  "17": "Jehoshaphat teaches the law",
+  "18": "Micaiah and Ahab",
+  "19": "Jehoshaphat appoints judges",
+  "20": "\"The battle is not yours, but God's\"",
+  "21": "Jehoram",
+  "22": "Ahaziah and Athaliah",
+  "23": "Joash crowned",
+  "24": "Joash repairs the temple, then turns away",
+  "25": "Amaziah",
+  "26": "Uzziah's pride",
+  "27": "Jotham",
+  "28": "Ahaz",
+  "29": "Hezekiah cleanses the temple",
+  "30": "Hezekiah's Passover",
+  "31": "Gifts and reforms",
+  "32": "Sennacherib's threat",
+  "33": "Manasseh's repentance",
+  "34": "Josiah finds the law",
+  "35": "Josiah's Passover; his death",
+  "36": "Jerusalem falls; Cyrus's decree"
+ },
+ "famous": {
+  "5": "The glory fills the temple",
+  "7:14": "\"If my people… shall humble themselves\"",
+  "20:15": "\"The battle is not yours, but God's\""
+ },
+ "display": "the Second Book of Chronicles"
+}

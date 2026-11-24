@@ -1,0 +1,47 @@
+{
+ "hook": "The letter of James.",
+ "intro": [
+  "James is practical wisdom for everyday faith. Tradition holds that it was written by James, the brother of Jesus.",
+  "In five short chapters, it covers trials, wealth, words, and prayer, and insists that real faith shows itself in what we do.",
+  "Listen for: be ye doers of the word, and not hearers only."
+ ],
+ "card": {
+  "who": "James (by tradition)",
+  "parts": "Ch. 1–5: faith that works",
+  "key": "Count it all joy (1) · Faith without works (2) · Taming the tongue (3) · Draw nigh to God (4)",
+  "listen": "Wisdom · action · words"
+ },
+ "next": "1 Peter: hope in hard times",
+ "next_say": "the first letter of Peter, hope in hard times",
+ "palette": [
+  [
+   26,
+   22,
+   14
+  ],
+  [
+   80,
+   66,
+   40
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "Count it all joy; doers of the word",
+  "2": "Faith without works is dead",
+  "3": "Taming the tongue",
+  "4": "\"Draw nigh to God\"",
+  "5": "Patience, and the prayer of faith"
+ },
+ "famous": {
+  "1:22": "\"Be ye doers of the word\"",
+  "2:17": "\"Faith… without works is dead\"",
+  "4:8": "\"Draw nigh to God\""
+ },
+ "display": "the letter of James"
+}

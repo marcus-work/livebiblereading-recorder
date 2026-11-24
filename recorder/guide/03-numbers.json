@@ -1,0 +1,80 @@
+{
+ "hook": "The book of Numbers.",
+ "intro": [
+  "Numbers is named for the two times Israel is counted. But its real story is forty years in the wilderness.",
+  "Chapters one to ten: Israel gets ready at Mount Sinai. Chapters eleven to twenty-five: the journey, with complaints, rebellion, and the refusal to enter the promised land.",
+  "Chapters twenty-six to thirty-six: a new generation prepares to go in.",
+  "Tradition holds that Moses wrote it.",
+  "Listen for God's patience with a grumbling people, and the famous blessing in chapter six: The LORD bless thee, and keep thee."
+ ],
+ "card": {
+  "who": "Moses (by tradition)",
+  "parts": "Ch. 1–10: ready at Sinai | Ch. 11–25: the wilderness years | Ch. 26–36: a new generation",
+  "key": "The priestly blessing (6) · The spies (13) · Bronze serpent (21) · Balaam's donkey (22)",
+  "listen": "Grumbling · God's patience · faithfulness"
+ },
+ "next": "Deuteronomy: Moses' last words",
+ "next_say": "Deuteronomy, the last words of Moses",
+ "palette": [
+  [
+   40,
+   28,
+   16
+  ],
+  [
+   110,
+   80,
+   44
+  ],
+  [
+   210,
+   170,
+   100
+  ]
+ ],
+ "symbol": "tent",
+ "titles": {
+  "1": "The first census",
+  "2": "The camp arranged by tribes",
+  "3": "The Levites",
+  "4": "The duties of the Levite families",
+  "5": "Purity in the camp",
+  "6": "The Nazarite vow; the priestly blessing",
+  "7": "Gifts from the leaders",
+  "8": "The lampstand; the Levites set apart",
+  "9": "Passover; the cloud leads",
+  "10": "Silver trumpets; Israel sets out",
+  "11": "Complaints; the quail",
+  "12": "Miriam and Aaron oppose Moses",
+  "13": "Twelve spies explore Canaan",
+  "14": "The people refuse to go in",
+  "15": "Offerings and the tassels",
+  "16": "Korah's rebellion",
+  "17": "Aaron's rod buds",
+  "18": "Priests and Levites provided for",
+  "19": "The red heifer",
+  "20": "Water from the rock; Miriam and Aaron die",
+  "21": "The bronze serpent",
+  "22": "Balaam and his donkey",
+  "23": "Balaam blesses Israel",
+  "24": "Balaam's last prophecies",
+  "25": "Sin at Peor",
+  "26": "The second census",
+  "27": "Zelophehad's daughters; Joshua chosen",
+  "28": "Daily and festival offerings",
+  "29": "Offerings for the autumn feasts",
+  "30": "Vows",
+  "31": "War with Midian",
+  "32": "Tribes settle east of the Jordan",
+  "33": "The journey retold",
+  "34": "The borders of the land",
+  "35": "Cities of refuge",
+  "36": "Inheritance kept in the tribe"
+ },
+ "famous": {
+  "6:24": "The priestly blessing",
+  "13": "The twelve spies",
+  "21": "The bronze serpent",
+  "22": "Balaam's donkey"
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "hook": "The book of Jeremiah.",
+ "intro": [
+  "Jeremiah is called the weeping prophet. He warned Judah for forty years that Babylon was coming, and lived to see Jerusalem fall.",
+  "Chapters one to twenty-five are his warnings, and his own painful prayers. Chapters twenty-six to forty-five tell his story: threats, prison, a muddy cistern, and the fall of the city.",
+  "Chapters forty-six to fifty-two speak to the nations, ending with the fall of Jerusalem retold.",
+  "Tradition holds that Jeremiah wrote it, with his scribe Baruch.",
+  "Listen for hope in the hardest times: For I know the thoughts that I think toward you, and the promise of a new covenant."
+ ],
+ "card": {
+  "who": "Jeremiah, with Baruch (by tradition)",
+  "parts": "Ch. 1–25: warnings | Ch. 26–45: Jeremiah's story; Jerusalem falls | Ch. 46–52: the nations",
+  "key": "Called before birth (1) · The potter (18) · I know the thoughts (29) · The new covenant (31)",
+  "listen": "Faithfulness · grief · hope"
+ },
+ "next": "Lamentations: grief for a fallen city",
+ "next_say": "Lamentations, five poems of grief for a fallen city",
+ "palette": [
+  [
+   22,
+   16,
+   18
+  ],
+  [
+   66,
+   40,
+   44
+  ],
+  [
+   190,
+   140,
+   100
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "Jeremiah called",
+  "2": "Israel's unfaithfulness",
+  "3": "\"Return, ye backsliding children\"",
+  "4": "Disaster from the north",
+  "5": "Not one righteous",
+  "6": "Jerusalem besieged",
+  "7": "The temple sermon",
+  "8": "\"Is there no balm in Gilead?\"",
+  "9": "Jeremiah weeps",
+  "10": "Idols and the living God",
+  "11": "The broken covenant",
+  "12": "Jeremiah's complaint",
+  "13": "The ruined linen belt",
+  "14": "Drought and false prophets",
+  "15": "Jeremiah's distress",
+  "16": "No marriage for Jeremiah",
+  "17": "\"The heart is deceitful\"",
+  "18": "The potter's house",
+  "19": "The broken jar",
+  "20": "Jeremiah in the stocks",
+  "21": "Zedekiah asks Jeremiah",
+  "22": "Warnings to Judah's kings",
+  "23": "The righteous Branch; false prophets",
+  "24": "Two baskets of figs",
+  "25": "Seventy years of exile",
+  "26": "Jeremiah threatened with death",
+  "27": "The yoke of Babylon",
+  "28": "Hananiah's false prophecy",
+  "29": "A letter to the exiles",
+  "30": "Restoration promised",
+  "31": "The new covenant",
+  "32": "Jeremiah buys a field",
+  "33": "The promise renewed",
+  "34": "A warning to Zedekiah",
+  "35": "The faithful Rechabites",
+  "36": "The king burns the scroll",
+  "37": "Jeremiah imprisoned",
+  "38": "Jeremiah in the cistern",
+  "39": "Jerusalem falls",
+  "40": "Jeremiah set free",
+  "41": "Gedaliah murdered",
+  "42": "\"Stay in the land\"",
+  "43": "The flight to Egypt",
+  "44": "Warnings in Egypt",
+  "45": "A word to Baruch",
+  "46": "Against Egypt",
+  "47": "Against the Philistines",
+  "48": "Against Moab",
+  "49": "Against Ammon, Edom and others",
+  "50": "Against Babylon",
+  "51": "Babylon's fall",
+  "52": "The fall of Jerusalem retold"
+ },
+ "famous": {
+  "1:5": "\"Before I formed thee… I knew thee\"",
+  "18": "The potter's house",
+  "29:11": "\"For I know the thoughts that I think toward you\"",
+  "31:31": "The new covenant"
+ }
+}

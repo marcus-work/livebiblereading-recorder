@@ -1,0 +1,45 @@
+{
+ "hook": "The book of Habakkuk.",
+ "intro": [
+  "Habakkuk is a conversation between a prophet and God.",
+  "In chapter one, Habakkuk asks why God allows injustice, and is shocked by the answer. In chapter two, God tells him to wait, and says: the just shall live by his faith.",
+  "Chapter three is a song of trust.",
+  "Little is known of Habakkuk himself.",
+  "Listen for the ending: although the fig tree shall not blossom, yet I will rejoice in the LORD."
+ ],
+ "card": {
+  "who": "Habakkuk",
+  "parts": "Ch. 1: \"How long?\" | Ch. 2: wait, and live by faith | Ch. 3: a song of trust",
+  "key": "The just shall live by faith (2) · Yet I will rejoice (3)",
+  "listen": "Honest questions · faith · joy"
+ },
+ "next": "Zephaniah: the day of the LORD, and a song of joy",
+ "next_say": "Zephaniah, the day of the LORD, and a song of joy",
+ "palette": [
+  [
+   20,
+   20,
+   30
+  ],
+  [
+   54,
+   54,
+   84
+  ],
+  [
+   200,
+   170,
+   120
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "\"How long shall I cry?\"",
+  "2": "The vision; the just shall live by faith",
+  "3": "\"Yet I will rejoice in the LORD\""
+ },
+ "famous": {
+  "2:4": "\"The just shall live by his faith\"",
+  "3:18": "\"Yet I will rejoice in the LORD\""
+ }
+}

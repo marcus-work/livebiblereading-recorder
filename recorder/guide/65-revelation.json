@@ -1,0 +1,68 @@
+{
+ "hook": "The book of Revelation.",
+ "intro": [
+  "Revelation is the last book of the Bible: a vision given to John, exiled on the island of Patmos. It begins with a blessing on everyone who reads it, and everyone who hears it.",
+  "Chapters one to three: the risen Jesus speaks to seven churches. Chapters four to twenty: visions of God's throne, the Lamb, and the long battle between good and evil, told in vivid pictures.",
+  "Chapters twenty-one and twenty-two: a new heaven and a new earth, where God shall wipe away all tears.",
+  "Tradition holds that the apostle John wrote it.",
+  "It's full of symbols, and Christians read them in different ways. Listen for the big picture: the Lamb wins, and God makes all things new."
+ ],
+ "card": {
+  "who": "John (by tradition)",
+  "parts": "Ch. 1–3: letters to seven churches | Ch. 4–20: visions of the throne and the Lamb | Ch. 21–22: all things new",
+  "key": "I stand at the door (3) · The throne (4) · The Lamb (5) · A new heaven (21) · Come (22)",
+  "listen": "Hope · worship · all things new"
+ },
+ "next": "Start again from the beginning: Genesis",
+ "next_say": "back to the very beginning, with Genesis",
+ "palette": [
+  [
+   16,
+   14,
+   30
+  ],
+  [
+   44,
+   38,
+   90
+  ],
+  [
+   230,
+   200,
+   130
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "John's vision of the risen Christ",
+  "2": "Letters to Ephesus, Smyrna, Pergamos and Thyatira",
+  "3": "Letters to Sardis, Philadelphia and Laodicea",
+  "4": "The throne in heaven",
+  "5": "The Lamb and the scroll",
+  "6": "The seals opened",
+  "7": "A great multitude",
+  "8": "The seventh seal; the trumpets begin",
+  "9": "The fifth and sixth trumpets",
+  "10": "The angel and the little book",
+  "11": "The two witnesses; the seventh trumpet",
+  "12": "The woman and the dragon",
+  "13": "The beasts",
+  "14": "The Lamb on mount Sion; the harvest",
+  "15": "The song of Moses and the Lamb",
+  "16": "The seven vials",
+  "17": "The woman on the beast",
+  "18": "\"Babylon… is fallen\"",
+  "19": "The marriage supper; the rider on the white horse",
+  "20": "The thousand years; the final judgement",
+  "21": "A new heaven and a new earth",
+  "22": "The river of life; \"Come\""
+ },
+ "famous": {
+  "1:3": "\"Blessed is he that readeth, and they that hear\"",
+  "3:20": "\"Behold, I stand at the door, and knock\"",
+  "5": "Worthy is the Lamb",
+  "21:4": "\"God shall wipe away all tears\"",
+  "22:20": "\"Even so, come, Lord Jesus\""
+ },
+ "display": "the book of Revelation"
+}

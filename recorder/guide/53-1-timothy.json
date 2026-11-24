@@ -1,0 +1,49 @@
+{
+ "hook": "Paul's first letter to Timothy.",
+ "intro": [
+  "First Timothy is Paul's advice to his young friend Timothy, leading the church in Ephesus.",
+  "Chapters one to three cover sound teaching, prayer, and choosing good leaders. Chapters four to six give personal advice: be an example, care for widows, and beware the love of money.",
+  "Paul wrote it late in his life.",
+  "Listen for: fight the good fight of faith."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–3: teaching, prayer, leaders | Ch. 4–6: personal advice",
+  "key": "Christ came to save sinners (1) · Be an example (4) · The love of money (6)",
+  "listen": "Godliness · contentment · leadership"
+ },
+ "next": "2 Timothy: Paul's last letter",
+ "next_say": "Paul's second letter to Timothy, his last letter",
+ "palette": [
+  [
+   20,
+   22,
+   18
+  ],
+  [
+   58,
+   66,
+   50
+  ],
+  [
+   210,
+   190,
+   130
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "\"Christ Jesus came… to save sinners\"",
+  "2": "Prayer for all people",
+  "3": "Leaders in the church",
+  "4": "\"Be thou an example\"",
+  "5": "Care for widows and elders",
+  "6": "\"The love of money\"; fight the good fight"
+ },
+ "famous": {
+  "1:15": "\"Christ Jesus came into the world to save sinners\"",
+  "4:12": "\"Be thou an example\"",
+  "6:10": "\"The love of money\""
+ },
+ "display": "Paul's first letter to Timothy"
+}

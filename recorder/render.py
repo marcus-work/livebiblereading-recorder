@@ -110,10 +110,16 @@ def render(voice, bible, bi, c, verses, gap, out):
     parts, marks, pos, retried = [a, np.zeros(int(SR * INTRO_PAUSE), dtype=np.float32)], [], 0, 0
     pos = len(a) + int(SR * INTRO_PAUSE)
     for k, (v, text) in enumerate(verses):
-        a, r = voice.verse(clean(text))
+        words = clean(text)
+        if not re.search(r"[^\W\d_]", words):
+            # an empty verse (the 1909 Spanish text joins a few verses into the one before): a tiny pause, no gap
+            a, r = np.zeros(int(SR * 0.05), dtype=np.float32), False
+        else:
+            a, r = voice.verse(words)
         retried += r
         marks.append([v, round(pos / SR, 3), round(len(a) / SR, 3)])
-        g = np.zeros(int(SR * (gap if k < len(verses) - 1 else TAIL)), dtype=np.float32)
+        last = k == len(verses) - 1
+        g = np.zeros(int(SR * (TAIL if last else gap if len(a) > SR * 0.1 else 0)), dtype=np.float32)
         parts += [a.astype(np.float32), g]
         pos += len(a) + len(g)
     audio = np.concatenate(parts)

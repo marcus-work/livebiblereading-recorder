@@ -1,0 +1,74 @@
+{
+ "hook": "The Acts of the Apostles.",
+ "intro": [
+  "Acts tells what happened after Jesus rose: how a small group of his followers carried the good news from Jerusalem to Rome.",
+  "Chapters one to twelve: the coming of the Holy Spirit at Pentecost, the growth of the church in Jerusalem, and the conversion of Saul.",
+  "Chapters thirteen to twenty-eight: Saul, now called Paul, travels the Roman world, and finally reaches Rome in chains.",
+  "Tradition holds that Luke wrote it, continuing his Gospel.",
+  "Listen for Jesus' words in chapter one, which the rest of the book fulfils: ye shall be witnesses unto me, unto the uttermost part of the earth."
+ ],
+ "card": {
+  "who": "Luke (by tradition)",
+  "parts": "Ch. 1–12: Jerusalem, Pentecost, Saul converted | Ch. 13–28: Paul's journeys, to Rome",
+  "key": "Pentecost (2) · Saul's conversion (9) · The jailer (16) · Shipwreck (27)",
+  "listen": "The Holy Spirit · witness · the church"
+ },
+ "next": "Romans: the good news explained",
+ "next_say": "Paul's letter to the Romans, the good news explained",
+ "palette": [
+  [
+   16,
+   26,
+   30
+  ],
+  [
+   40,
+   74,
+   86
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "The ascension; Matthias chosen",
+  "2": "Pentecost",
+  "3": "A lame man healed",
+  "4": "Peter and John before the council",
+  "5": "Ananias and Sapphira; the apostles freed",
+  "6": "Seven chosen; Stephen arrested",
+  "7": "Stephen's speech and death",
+  "8": "Philip in Samaria; the Ethiopian",
+  "9": "Saul's conversion",
+  "10": "Peter and Cornelius",
+  "11": "The church in Antioch",
+  "12": "Peter freed from prison",
+  "13": "Paul's first journey begins",
+  "14": "Iconium, Lystra and Derbe",
+  "15": "The council at Jerusalem",
+  "16": "Lydia; the Philippian jailer",
+  "17": "Thessalonica, Berea and Athens",
+  "18": "Corinth",
+  "19": "Ephesus",
+  "20": "Eutychus; farewell at Miletus",
+  "21": "Paul goes to Jerusalem",
+  "22": "Paul's defence",
+  "23": "A plot uncovered",
+  "24": "Before Felix",
+  "25": "Before Festus",
+  "26": "Before Agrippa",
+  "27": "Storm and shipwreck",
+  "28": "Malta, and Rome"
+ },
+ "famous": {
+  "1:8": "\"Ye shall be witnesses unto me\"",
+  "2": "Pentecost",
+  "9": "Saul's conversion",
+  "16:31": "\"Believe on the Lord Jesus Christ\"",
+  "27": "The shipwreck"
+ },
+ "display": "the Acts of the Apostles"
+}

@@ -1,0 +1,52 @@
+{
+ "hook": "The book of Ezra.",
+ "intro": [
+  "Ezra tells how the Jewish people came home from exile in Babylon, and rebuilt.",
+  "Chapters one to six: the first return, and the rebuilding of the temple, despite opposition.",
+  "Chapters seven to ten: decades later, Ezra the priest arrives to teach God's law, and to call the people back to faithfulness.",
+  "Tradition holds that Ezra wrote it.",
+  "Listen for God moving the hearts of kings, and for Ezra, who prepared his heart to seek the law of the LORD."
+ ],
+ "card": {
+  "who": "Ezra (by tradition)",
+  "parts": "Ch. 1–6: return and the temple rebuilt | Ch. 7–10: Ezra teaches the law",
+  "key": "The foundation laid (3) · The temple finished (6) · Ezra's prayer (9)",
+  "listen": "Restoration · God's word · faithfulness"
+ },
+ "next": "Nehemiah: rebuilding the walls",
+ "next_say": "Nehemiah, the rebuilding of Jerusalem's walls",
+ "palette": [
+  [
+   22,
+   24,
+   20
+  ],
+  [
+   66,
+   76,
+   58
+  ],
+  [
+   200,
+   176,
+   120
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "Cyrus lets the exiles return",
+  "2": "Those who came home",
+  "3": "The altar and foundation rebuilt",
+  "4": "Opposition to the building",
+  "5": "Building starts again",
+  "6": "The temple finished",
+  "7": "Ezra comes to Jerusalem",
+  "8": "The journey home",
+  "9": "Ezra's prayer",
+  "10": "The people repent"
+ },
+ "famous": {
+  "3": "The foundation laid",
+  "7:10": "\"Ezra had prepared his heart\""
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "hook": "The book of Genesis.",
+ "intro": [
+  "Genesis means beginnings. It's the first book of the Bible, and it answers the biggest questions first: where the world came from, why things went wrong, and how God began to put them right.",
+  "It moves in two parts. Chapters one to eleven tell the story of everyone: creation, Adam and Eve, Noah's flood, and the tower of Babel.",
+  "Chapters twelve to fifty follow one family, Abraham, Isaac, Jacob and Joseph, and God's promise that through them every nation on earth would be blessed.",
+  "Jewish and Christian tradition hold that Moses wrote it, more than three thousand years ago.",
+  "As you listen, watch for God's promises, and how he keeps them, even when people fail.",
+  "This is Genesis, from the King James Bible. Old words are explained on screen as we go."
+ ],
+ "card": {
+  "who": "Moses (by tradition)",
+  "parts": "Ch. 1–11: the beginning of everything | Ch. 12–50: one family, Abraham to Joseph",
+  "key": "Creation (1) · Noah's ark (6–9) · Abraham (12) · Joseph (37–50)",
+  "listen": "God's promises · human failure · God's faithfulness"
+ },
+ "next": "Exodus: Moses and the way out of Egypt",
+ "palette": [
+  [
+   16,
+   32,
+   22
+  ],
+  [
+   46,
+   78,
+   40
+  ],
+  [
+   196,
+   150,
+   70
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "Creation in six days",
+  "2": "The seventh day; the Garden of Eden",
+  "3": "The serpent and the fall",
+  "4": "Cain and Abel",
+  "5": "From Adam to Noah",
+  "6": "Noah builds the ark",
+  "7": "The flood",
+  "8": "The waters go down",
+  "9": "The rainbow covenant",
+  "10": "The nations after the flood",
+  "11": "The tower of Babel",
+  "12": "God calls Abram",
+  "13": "Abram and Lot part ways",
+  "14": "Abram rescues Lot; Melchizedek",
+  "15": "God's covenant with Abram",
+  "16": "Hagar and Ishmael",
+  "17": "The covenant of circumcision",
+  "18": "Three visitors; Abraham pleads for Sodom",
+  "19": "Sodom and Gomorrah",
+  "20": "Abraham and Abimelech",
+  "21": "Isaac is born",
+  "22": "God tests Abraham",
+  "23": "Sarah dies",
+  "24": "A wife for Isaac: Rebekah",
+  "25": "Esau and Jacob; the birthright",
+  "26": "Isaac and the wells",
+  "27": "Jacob takes the blessing",
+  "28": "Jacob's ladder",
+  "29": "Jacob marries Leah and Rachel",
+  "30": "Jacob's children and flocks",
+  "31": "Jacob leaves Laban",
+  "32": "Jacob wrestles with God",
+  "33": "Jacob and Esau meet again",
+  "34": "Dinah and Shechem",
+  "35": "Back to Bethel; Rachel dies",
+  "36": "The descendants of Esau",
+  "37": "Joseph's dreams and the coat",
+  "38": "Judah and Tamar",
+  "39": "Joseph in Potiphar's house",
+  "40": "Joseph explains two dreams",
+  "41": "Pharaoh's dreams; Joseph rises",
+  "42": "Joseph's brothers come to Egypt",
+  "43": "The return with Benjamin",
+  "44": "The silver cup",
+  "45": "Joseph reveals himself",
+  "46": "Jacob goes down to Egypt",
+  "47": "Jacob meets Pharaoh; the famine",
+  "48": "Jacob blesses Ephraim and Manasseh",
+  "49": "Jacob blesses his twelve sons",
+  "50": "\"God meant it unto good\""
+ },
+ "famous": {
+  "1": "Creation",
+  "3": "The fall",
+  "6": "Noah's ark",
+  "11": "The tower of Babel",
+  "12": "The call of Abraham",
+  "22": "Abraham and Isaac",
+  "28": "Jacob's ladder",
+  "37": "Joseph's coat of many colours",
+  "50:20": "\"God meant it unto good\""
+ },
+ "next_say": "Exodus, the story of Moses and the way out of Egypt"
+}

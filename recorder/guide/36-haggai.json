@@ -1,0 +1,43 @@
+{
+ "hook": "The book of Haggai.",
+ "intro": [
+  "Haggai speaks to the exiles who came home from Babylon, but left God's temple in ruins while they built their own houses.",
+  "Chapter one calls them to consider their ways, and rebuild. Chapter two encourages them: the glory of this latter house shall be greater than of the former.",
+  "Haggai gave these messages over a few months, about five hundred and twenty years before Christ.",
+  "Listen for God's encouragement to discouraged builders: be strong, for I am with you."
+ ],
+ "card": {
+  "who": "Haggai",
+  "parts": "Ch. 1: consider your ways; rebuild | Ch. 2: the greater glory to come",
+  "key": "Consider your ways (1) · Be strong, for I am with you (2)",
+  "listen": "Priorities · encouragement"
+ },
+ "next": "Zechariah: visions of the coming king",
+ "next_say": "Zechariah, visions of the coming king",
+ "palette": [
+  [
+   28,
+   24,
+   16
+  ],
+  [
+   86,
+   72,
+   44
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "\"Consider your ways\": rebuild the temple",
+  "2": "The glory of the latter house"
+ },
+ "famous": {
+  "1:5": "\"Consider your ways\"",
+  "2:4": "\"Be strong… for I am with you\""
+ }
+}

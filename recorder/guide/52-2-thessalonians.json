@@ -1,0 +1,44 @@
+{
+ "hook": "Paul's second letter to the Thessalonians.",
+ "intro": [
+  "Second Thessalonians follows soon after the first letter, to clear up confusion about the day of the Lord.",
+  "Chapter one encourages them in persecution. Chapter two explains events that must come first. Chapter three tells them to keep working, and not grow weary in doing good.",
+  "Paul wrote it to the same young church.",
+  "Listen for: be not weary in well doing."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1: encouragement | Ch. 2: the day of the Lord | Ch. 3: keep working",
+  "key": "Be not weary in well doing (3)",
+  "listen": "Steadiness · hope"
+ },
+ "next": "1 Timothy: guidance for a young leader",
+ "next_say": "Paul's first letter to Timothy, guidance for a young leader",
+ "palette": [
+  [
+   22,
+   22,
+   26
+  ],
+  [
+   64,
+   62,
+   72
+  ],
+  [
+   210,
+   180,
+   130
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "Encouragement in persecution",
+  "2": "The day of the Lord",
+  "3": "\"Be not weary in well doing\""
+ },
+ "famous": {
+  "3:13": "\"Be not weary in well doing\""
+ },
+ "display": "Paul's second letter to the Thessalonians"
+}

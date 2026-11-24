@@ -1,0 +1,70 @@
+{
+ "hook": "The second book of Kings.",
+ "intro": [
+  "Second Kings tells how both Israelite kingdoms fell: first Israel in the north, then Judah in the south.",
+  "Chapters one to thirteen: the prophet Elisha and his miracles, and the end of Ahab's family. Chapters fourteen to seventeen: the slide that ends with Israel taken captive by Assyria.",
+  "Chapters eighteen to twenty-five: Judah's good kings, Hezekiah and Josiah, and finally Jerusalem destroyed by Babylon.",
+  "Its author isn't named; tradition credits Jeremiah.",
+  "Listen for the prophets' warnings, and how God keeps a remnant, even in exile."
+ ],
+ "card": {
+  "who": "Not named (Jeremiah, by tradition)",
+  "parts": "Ch. 1–13: Elisha | Ch. 14–17: Israel falls | Ch. 18–25: Judah falls",
+  "key": "Elijah taken up (2) · Naaman (5) · Chariots of fire (6) · The law found (22)",
+  "listen": "Warnings · faithfulness · hope in exile"
+ },
+ "next": "1 Chronicles: Israel's story retold, around David",
+ "next_say": "the First Book of Chronicles: Israel's story retold, around King David",
+ "palette": [
+  [
+   20,
+   16,
+   16
+  ],
+  [
+   66,
+   44,
+   40
+  ],
+  [
+   180,
+   120,
+   80
+  ]
+ ],
+ "symbol": "flame",
+ "titles": {
+  "1": "Elijah and Ahaziah",
+  "2": "Elijah taken up; Elisha begins",
+  "3": "Water in the desert",
+  "4": "The widow's oil; a boy raised",
+  "5": "Naaman healed",
+  "6": "The floating axe head; chariots of fire",
+  "7": "The siege of Samaria lifted",
+  "8": "Elisha and Hazael",
+  "9": "Jehu anointed; Jezebel's end",
+  "10": "Jehu destroys Baal worship",
+  "11": "Athaliah and young Joash",
+  "12": "Joash repairs the temple",
+  "13": "The death of Elisha",
+  "14": "Amaziah of Judah",
+  "15": "Kings of Judah and Israel",
+  "16": "King Ahaz",
+  "17": "The fall of Israel",
+  "18": "Hezekiah; Assyria threatens",
+  "19": "Jerusalem delivered",
+  "20": "Hezekiah's illness",
+  "21": "Manasseh's evil",
+  "22": "The book of the law found",
+  "23": "Josiah's reforms",
+  "24": "Babylon invades",
+  "25": "The fall of Jerusalem"
+ },
+ "famous": {
+  "2": "Elijah taken up",
+  "5": "Naaman healed",
+  "6:17": "Chariots of fire",
+  "22": "The book of the law found"
+ },
+ "display": "the Second Book of Kings"
+}

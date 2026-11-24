@@ -1,0 +1,56 @@
+{
+ "hook": "The book of Nehemiah.",
+ "intro": [
+  "Nehemiah is the story of a man who heard that Jerusalem's walls lay in ruins, and did something about it.",
+  "Chapters one to seven: Nehemiah prays, gets the king's permission, and leads the rebuilding of the walls in just fifty-two days, despite threats.",
+  "Chapters eight to thirteen: Ezra reads the law to the people, and they renew their promise to God.",
+  "Tradition holds that Nehemiah wrote much of it himself.",
+  "Listen for prayer before action, and the line in chapter eight: the joy of the LORD is your strength."
+ ],
+ "card": {
+  "who": "Nehemiah (by tradition)",
+  "parts": "Ch. 1–7: the walls rebuilt | Ch. 8–13: the people renewed",
+  "key": "Building with a sword (4) · The wall finished (6) · The joy of the LORD (8)",
+  "listen": "Prayer · perseverance · joy"
+ },
+ "next": "Esther: a queen's courage",
+ "next_say": "Esther, the story of a queen's courage",
+ "palette": [
+  [
+   30,
+   24,
+   18
+  ],
+  [
+   90,
+   74,
+   56
+  ],
+  [
+   210,
+   180,
+   130
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "Nehemiah's prayer",
+  "2": "To Jerusalem; inspecting the walls",
+  "3": "Building the wall",
+  "4": "Building with a sword in hand",
+  "5": "Helping the poor",
+  "6": "The wall finished",
+  "7": "The returned exiles listed",
+  "8": "Ezra reads the law",
+  "9": "A prayer of confession",
+  "10": "The people's promise",
+  "11": "People settle in Jerusalem",
+  "12": "The wall dedicated",
+  "13": "Nehemiah's final reforms"
+ },
+ "famous": {
+  "4": "Building with a sword in hand",
+  "6:15": "The wall finished",
+  "8:10": "\"The joy of the LORD is your strength\""
+ }
+}

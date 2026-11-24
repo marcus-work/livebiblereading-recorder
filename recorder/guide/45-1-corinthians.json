@@ -1,0 +1,61 @@
+{
+ "hook": "Paul's first letter to the Corinthians.",
+ "intro": [
+  "First Corinthians is Paul's letter to a gifted but troubled church in Corinth, a busy Greek port city.",
+  "Chapters one to six deal with divisions, pride and wrongdoing. Chapters seven to fourteen answer their questions: marriage, freedom, worship, and spiritual gifts.",
+  "Chapter thirteen is the famous chapter on love. Chapter fifteen explains the resurrection.",
+  "Paul wrote it about twenty-five years after Jesus' resurrection.",
+  "Listen for the heart of it all: the greatest of these is charity, which here means love."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–6: divisions and problems | Ch. 7–14: questions answered; love | Ch. 15–16: the resurrection",
+  "key": "The cross is foolishness (1) · One body (12) · Love (13) · The resurrection (15)",
+  "listen": "Unity · love · resurrection"
+ },
+ "next": "2 Corinthians: strength in weakness",
+ "next_say": "Paul's second letter to the Corinthians, strength in weakness",
+ "palette": [
+  [
+   18,
+   24,
+   30
+  ],
+  [
+   48,
+   66,
+   84
+  ],
+  [
+   220,
+   190,
+   130
+  ]
+ ],
+ "symbol": "scroll",
+ "titles": {
+  "1": "Christ crucified, the wisdom of God",
+  "2": "God's wisdom revealed by the Spirit",
+  "3": "God's building; God's temple",
+  "4": "Servants of Christ",
+  "5": "Wrongdoing in the church",
+  "6": "Your body is a temple",
+  "7": "Marriage and singleness",
+  "8": "Freedom and love",
+  "9": "Paul's rights given up",
+  "10": "Warnings from Israel's history",
+  "11": "The Lord's Supper",
+  "12": "Spiritual gifts; one body",
+  "13": "Love: \"the greatest of these is charity\"",
+  "14": "Order in worship",
+  "15": "The resurrection",
+  "16": "The collection; final greetings"
+ },
+ "famous": {
+  "1:18": "\"The preaching of the cross\"",
+  "12": "One body, many parts",
+  "13": "The love chapter",
+  "15": "The resurrection"
+ },
+ "display": "Paul's first letter to the Corinthians"
+}

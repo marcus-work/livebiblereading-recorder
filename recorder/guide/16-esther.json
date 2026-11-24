@@ -1,0 +1,51 @@
+{
+ "hook": "The book of Esther.",
+ "intro": [
+  "Esther is a story of courage, set in the Persian empire after the exile.",
+  "A Jewish orphan named Esther becomes queen. In chapters three to seven, a powerful official plots to destroy her people, and she must risk her life to speak to the king. Chapters eight to ten tell of the rescue, and the feast of Purim.",
+  "Its author isn't named.",
+  "God's name never appears in the book, yet his care is everywhere. Listen for the turning point in chapter four: who knoweth whether thou art come to the kingdom for such a time as this?"
+ ],
+ "card": {
+  "who": "Not named",
+  "parts": "Ch. 1–2: Esther becomes queen | Ch. 3–7: the plot, and Esther's courage | Ch. 8–10: rescue, and Purim",
+  "key": "For such a time as this (4) · Haman's downfall (7) · Purim (9)",
+  "listen": "Courage · God's hidden care"
+ },
+ "next": "Job: suffering, and where God is",
+ "next_say": "Job, a book about suffering, and where God is in it",
+ "palette": [
+  [
+   30,
+   14,
+   26
+  ],
+  [
+   90,
+   40,
+   70
+  ],
+  [
+   220,
+   170,
+   110
+  ]
+ ],
+ "symbol": "crown",
+ "titles": {
+  "1": "Queen Vashti refuses the king",
+  "2": "Esther becomes queen",
+  "3": "Haman's plot",
+  "4": "\"For such a time as this\"",
+  "5": "Esther goes to the king",
+  "6": "Mordecai honoured",
+  "7": "Haman's downfall",
+  "8": "The king's new decree",
+  "9": "The Jews defend themselves; Purim",
+  "10": "Mordecai's greatness"
+ },
+ "famous": {
+  "4:14": "\"For such a time as this\"",
+  "7": "Haman's downfall"
+ }
+}

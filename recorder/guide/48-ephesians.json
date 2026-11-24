@@ -1,0 +1,49 @@
+{
+ "hook": "Paul's letter to the Ephesians.",
+ "intro": [
+  "Ephesians describes the church as God's family, made one in Christ.",
+  "Chapters one to three tell what God has done: chosen us, saved us by grace, and broken down the wall between peoples.",
+  "Chapters four to six show how to live: walking in love, at home and at work, and standing strong in the armour of God.",
+  "Paul wrote it from prison.",
+  "Listen for chapter two: by grace are ye saved through faith."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–3: what God has done | Ch. 4–6: how to live",
+  "key": "Saved by grace (2) · One body (4) · The armour of God (6)",
+  "listen": "Grace · unity · standing firm"
+ },
+ "next": "Philippians: joy in every situation",
+ "next_say": "Paul's letter to the Philippians, about joy",
+ "palette": [
+  [
+   18,
+   20,
+   34
+  ],
+  [
+   48,
+   56,
+   96
+  ],
+  [
+   220,
+   190,
+   120
+  ]
+ ],
+ "symbol": "wall",
+ "titles": {
+  "1": "Every spiritual blessing",
+  "2": "\"By grace are ye saved\"",
+  "3": "The mystery revealed; Paul's prayer",
+  "4": "One body; walk worthy",
+  "5": "Walk in love and light",
+  "6": "The armour of God"
+ },
+ "famous": {
+  "2:8": "\"By grace are ye saved through faith\"",
+  "6:11": "\"Put on the whole armour of God\""
+ },
+ "display": "Paul's letter to the Ephesians"
+}

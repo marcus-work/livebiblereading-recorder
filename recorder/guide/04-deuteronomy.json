@@ -1,0 +1,79 @@
+{
+ "hook": "The book of Deuteronomy.",
+ "intro": [
+  "Deuteronomy means second law. It's Moses' farewell: a series of speeches to Israel just before they enter the promised land.",
+  "Chapters one to four look back on the journey. Chapters five to twenty-six repeat and explain God's law, including the Ten Commandments, and the great command: Hear, O Israel.",
+  "Chapters twenty-seven to thirty-four renew the covenant, and end with the death of Moses.",
+  "Tradition holds that Moses spoke these words near the end of his life.",
+  "Listen for the word remember, and the call to love God with all your heart."
+ ],
+ "card": {
+  "who": "Moses (by tradition)",
+  "parts": "Ch. 1–4: looking back | Ch. 5–26: the law explained | Ch. 27–34: covenant renewed; Moses dies",
+  "key": "Hear, O Israel (6) · Choose life (30) · Be strong (31) · Death of Moses (34)",
+  "listen": "Remember · love God · choose life"
+ },
+ "next": "Joshua: into the promised land",
+ "next_say": "Joshua, the journey into the promised land",
+ "palette": [
+  [
+   22,
+   18,
+   34
+  ],
+  [
+   60,
+   48,
+   80
+  ],
+  [
+   190,
+   150,
+   90
+  ]
+ ],
+ "symbol": "mountain",
+ "titles": {
+  "1": "Looking back from the wilderness",
+  "2": "Past Edom, Moab and Ammon",
+  "3": "Victories east of the Jordan",
+  "4": "\"Take heed to thyself\"",
+  "5": "The Ten Commandments again",
+  "6": "\"Hear, O Israel\"",
+  "7": "A people chosen by God",
+  "8": "Remember the LORD in good times",
+  "9": "Not because of your righteousness",
+  "10": "What the LORD requires",
+  "11": "Love and obey",
+  "12": "One place of worship",
+  "13": "Warnings against false prophets",
+  "14": "Clean food and the tithe",
+  "15": "The year of release",
+  "16": "The three great feasts",
+  "17": "Justice and the king",
+  "18": "Priests, and a prophet like Moses",
+  "19": "Cities of refuge",
+  "20": "Rules of war",
+  "21": "Various laws",
+  "22": "Laws for daily life",
+  "23": "Who may enter the assembly",
+  "24": "Fairness to the poor",
+  "25": "Justice and honest weights",
+  "26": "Firstfruits and tithes",
+  "27": "Stones on Mount Ebal",
+  "28": "Blessings and curses",
+  "29": "The covenant renewed in Moab",
+  "30": "\"Choose life\"",
+  "31": "Joshua takes over",
+  "32": "The song of Moses",
+  "33": "Moses blesses the tribes",
+  "34": "The death of Moses"
+ },
+ "famous": {
+  "6:4": "\"Hear, O Israel\"",
+  "8:3": "\"Man doth not live by bread only\"",
+  "30": "\"Choose life\"",
+  "31:6": "\"He will not fail thee\"",
+  "34": "The death of Moses"
+ }
+}

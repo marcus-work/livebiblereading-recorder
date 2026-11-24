@@ -1,0 +1,56 @@
+{
+ "hook": "The book of Hosea.",
+ "intro": [
+  "Hosea is a love story with a painful twist. God asks the prophet to marry Gomer, a woman who will be unfaithful to him, as a picture of Israel's unfaithfulness to God.",
+  "Chapters one to three tell Hosea's own story. Chapters four to fourteen speak to Israel: warning, grief, and a love that refuses to let go.",
+  "Tradition credits Hosea himself, about seven hundred and fifty years before Christ.",
+  "Listen for God's heart in chapter eleven: When Israel was a child, then I loved him."
+ ],
+ "card": {
+  "who": "Hosea (by tradition)",
+  "parts": "Ch. 1–3: Hosea and Gomer | Ch. 4–14: God's message to Israel",
+  "key": "Hosea buys back his wife (3) · Come, let us return (6) · When Israel was a child (11)",
+  "listen": "Faithfulness · love · return"
+ },
+ "next": "Joel: the day of the LORD",
+ "next_say": "Joel, and the day of the LORD",
+ "palette": [
+  [
+   30,
+   18,
+   26
+  ],
+  [
+   86,
+   44,
+   64
+  ],
+  [
+   220,
+   170,
+   140
+  ]
+ ],
+ "symbol": "dove",
+ "titles": {
+  "1": "Hosea's wife and children",
+  "2": "Unfaithful Israel, loved again",
+  "3": "Hosea buys back his wife",
+  "4": "No knowledge of God",
+  "5": "Judgement on priests and kings",
+  "6": "\"Come, and let us return\"",
+  "7": "Israel like a half-baked cake",
+  "8": "They sow the wind",
+  "9": "Punishment is coming",
+  "10": "\"Break up your fallow ground\"",
+  "11": "\"When Israel was a child, then I loved him\"",
+  "12": "Jacob's story remembered",
+  "13": "\"O death, I will be thy plagues\"",
+  "14": "Return, and be healed"
+ },
+ "famous": {
+  "3": "Hosea buys back his wife",
+  "6:1": "\"Come, and let us return unto the LORD\"",
+  "11:1": "\"When Israel was a child, then I loved him\""
+ }
+}

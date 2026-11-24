@@ -1,0 +1,75 @@
+{
+ "hook": "The book of Proverbs.",
+ "intro": [
+  "Proverbs is a book of wisdom for everyday life: work, money, friendship, words, family, and choices.",
+  "Chapters one to nine are a father's advice to his son, inviting him to choose wisdom. Chapters ten to thirty-one are short sayings, each one a thought to carry with you, ending with a portrait of a virtuous woman.",
+  "Many of the proverbs are by King Solomon, with others by Agur, King Lemuel, and unnamed wise men.",
+  "Listen for the book's key line: The fear of the LORD is the beginning of knowledge."
+ ],
+ "card": {
+  "who": "Solomon, and others",
+  "parts": "Ch. 1–9: a father's advice | Ch. 10–31: wise sayings; the virtuous woman",
+  "key": "Trust in the LORD (3) · A soft answer (15) · Train up a child (22) · The virtuous woman (31)",
+  "listen": "Wisdom · words · everyday choices"
+ },
+ "next": "Ecclesiastes: the search for meaning",
+ "next_say": "Ecclesiastes, the search for meaning",
+ "palette": [
+  [
+   26,
+   22,
+   12
+  ],
+  [
+   86,
+   70,
+   30
+  ],
+  [
+   226,
+   196,
+   110
+  ]
+ ],
+ "symbol": "lamp",
+ "titles": {
+  "1": "The fear of the LORD is the beginning",
+  "2": "Seek wisdom like silver",
+  "3": "\"Trust in the LORD with all thine heart\"",
+  "4": "\"Keep thy heart\"",
+  "5": "A warning about adultery",
+  "6": "\"Go to the ant\"",
+  "7": "The foolish young man",
+  "8": "Wisdom calls out",
+  "9": "Wisdom's house, and folly's",
+  "10": "Wise and foolish",
+  "11": "Honesty and generosity",
+  "12": "The way of the righteous",
+  "13": "\"Hope deferred\"",
+  "14": "A sound heart",
+  "15": "\"A soft answer turneth away wrath\"",
+  "16": "Man plans, God directs",
+  "17": "\"A merry heart\"",
+  "18": "\"The name of the LORD is a strong tower\"",
+  "19": "Integrity is better than riches",
+  "20": "\"Wine is a mocker\"",
+  "21": "\"The king's heart is in the hand of the LORD\"",
+  "22": "\"Train up a child\"",
+  "23": "Don't envy sinners",
+  "24": "Don't envy evil men",
+  "25": "Proverbs copied by Hezekiah's men",
+  "26": "Fools, sluggards and gossips",
+  "27": "\"Boast not thyself of to morrow\"",
+  "28": "\"The righteous are bold as a lion\"",
+  "29": "\"Where there is no vision\"",
+  "30": "The words of Agur",
+  "31": "The virtuous woman"
+ },
+ "famous": {
+  "1:7": "\"The fear of the LORD is the beginning of knowledge\"",
+  "3:5": "\"Trust in the LORD with all thine heart\"",
+  "15:1": "\"A soft answer turneth away wrath\"",
+  "22:6": "\"Train up a child\"",
+  "31:10": "The virtuous woman"
+ }
+}

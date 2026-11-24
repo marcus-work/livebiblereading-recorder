@@ -1,0 +1,44 @@
+{
+ "hook": "The book of Zephaniah.",
+ "intro": [
+  "Zephaniah warns of the great day of the LORD, in the days of good King Josiah.",
+  "Chapter one announces judgement on Judah. Chapter two calls the humble to seek the LORD, and warns the nations.",
+  "Chapter three ends with one of the most tender pictures of God in the Bible.",
+  "Zephaniah was a descendant of King Hezekiah.",
+  "Listen for the last chapter: he will rejoice over thee with joy; he will joy over thee with singing."
+ ],
+ "card": {
+  "who": "Zephaniah",
+  "parts": "Ch. 1: the day of the LORD | Ch. 2: seek the LORD | Ch. 3: God sings over his people",
+  "key": "He will joy over thee with singing (3:17)",
+  "listen": "Humility · judgement · God's delight"
+ },
+ "next": "Haggai: rebuild the house of God",
+ "next_say": "Haggai, and the call to rebuild God's house",
+ "palette": [
+  [
+   22,
+   18,
+   28
+  ],
+  [
+   64,
+   52,
+   80
+  ],
+  [
+   220,
+   180,
+   120
+  ]
+ ],
+ "symbol": "harp",
+ "titles": {
+  "1": "The day of the LORD is near",
+  "2": "Seek the LORD; the nations judged",
+  "3": "God rejoices over his people with singing"
+ },
+ "famous": {
+  "3:17": "\"He will joy over thee with singing\""
+ }
+}

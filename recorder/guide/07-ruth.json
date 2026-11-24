@@ -1,0 +1,44 @@
+{
+ "hook": "The book of Ruth.",
+ "intro": [
+  "Ruth is a short story of loyalty, love and quiet faith, set in the days of the judges.",
+  "In chapter one, a widow named Naomi returns home with her foreign daughter-in-law, Ruth, who refuses to leave her. In chapters two to four, Ruth meets Boaz, a kind relative who rescues the family.",
+  "Its author isn't named; tradition credits Samuel.",
+  "Listen for kindness, and for the very last lines: Ruth becomes the great-grandmother of King David."
+ ],
+ "card": {
+  "who": "Not named (Samuel, by tradition)",
+  "parts": "Ch. 1: loss, and loyalty | Ch. 2–4: Ruth and Boaz",
+  "key": "Whither thou goest (1:16) · The kinsman-redeemer (4)",
+  "listen": "Loyalty · kindness · God working quietly"
+ },
+ "next": "1 Samuel: Israel's first kings",
+ "next_say": "the First Book of Samuel, and Israel's first kings",
+ "palette": [
+  [
+   26,
+   24,
+   12
+  ],
+  [
+   100,
+   86,
+   34
+  ],
+  [
+   220,
+   190,
+   100
+  ]
+ ],
+ "symbol": "tree",
+ "titles": {
+  "1": "\"Whither thou goest, I will go\"",
+  "2": "Ruth gleans in Boaz's field",
+  "3": "Ruth at the threshing floor",
+  "4": "Boaz redeems; the line of David"
+ },
+ "famous": {
+  "1:16": "\"Whither thou goest, I will go\""
+ }
+}

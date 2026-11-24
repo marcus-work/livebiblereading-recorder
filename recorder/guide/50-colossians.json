@@ -1,0 +1,46 @@
+{
+ "hook": "Paul's letter to the Colossians.",
+ "intro": [
+  "Colossians is about who Jesus is: above all things, and all you need.",
+  "Chapters one and two show Christ as the image of the invisible God, and warn against teachings that add to him. Chapters three and four describe the new life: setting your mind on things above, and living it out at home.",
+  "Paul wrote it from prison, to a church he had never visited.",
+  "Listen for chapter three: set your affection on things above."
+ ],
+ "card": {
+  "who": "Paul",
+  "parts": "Ch. 1–2: Christ above all | Ch. 3–4: the new life",
+  "key": "The image of God (1) · Things above (3)",
+  "listen": "Who Jesus is · new life"
+ },
+ "next": "1 Thessalonians: hope for the future",
+ "next_say": "Paul's first letter to the Thessalonians, about hope",
+ "palette": [
+  [
+   16,
+   22,
+   32
+  ],
+  [
+   40,
+   60,
+   86
+  ],
+  [
+   220,
+   190,
+   130
+  ]
+ ],
+ "symbol": "star",
+ "titles": {
+  "1": "Christ, the image of the invisible God",
+  "2": "Complete in him",
+  "3": "\"Set your affection on things above\"",
+  "4": "Pray, and greet one another"
+ },
+ "famous": {
+  "1:15": "\"The image of the invisible God\"",
+  "3:2": "\"Set your affection on things above\""
+ },
+ "display": "Paul's letter to the Colossians"
+}
