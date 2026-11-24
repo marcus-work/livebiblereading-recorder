@@ -1,6 +1,6 @@
 # Makes the Guided Audio Bible for YouTube: 66 videos, each with an introduction, chapter titles, a KJV word helper and an outro,
 # around the finished recording. The plain videos (youtube-kjv-onyx-1) are left as they are.
-# Run it from the Actions tab: "Make guided YouTube videos" -> "Run workflow". About 2 hours. Results: Releases -> youtube-guided-<set>.
+# Run it from the Actions tab: "Make guided YouTube videos" -> "Run workflow". About 3 hours (full HD). Results: Releases -> youtube-guided-<set>.
 name: Make guided YouTube videos
 
 on:
@@ -46,7 +46,7 @@ jobs:
         if: steps.gate.outputs.run == 'yes'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
-          pip install -q -r recorder/requirements.txt pillow
+          pip install -q -r recorder/requirements.txt pillow "qrcode[pil]"
       - name: Cache the voice model
         if: steps.gate.outputs.run == 'yes'
         uses: actions/cache@v4
@@ -107,6 +107,8 @@ jobs:
             mkdir -p youtube-kit && echo "Test run: kit is made for full runs only." > youtube-kit/README.txt
           fi
           cp recorder/UPLOAD-GUIDE.txt youtube-kit/ 2>/dev/null || true
+          mkdir -p youtube-kit/captions && cp guided/*.srt youtube-kit/captions/ 2>/dev/null || true
+          printf "Captions: in YouTube Studio open the video > Subtitles > English > Add > Upload file > With timing, and pick the .srt with the same number.\n" > youtube-kit/captions/HOW-TO-ADD.txt
       - name: Zip into downloads under 2 GB each
         run: |
           mkdir -p out

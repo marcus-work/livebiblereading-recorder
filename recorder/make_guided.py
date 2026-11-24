@@ -10,7 +10,11 @@ import argparse, glob, json, math, os, re, subprocess, tempfile
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 
-SR, W, H, FPS = 24000, 1280, 720, 10
+SR, FPS = 24000, 10
+PW, PH = 1280, 720                # layout grid (text positions); libass scales it up
+W, H = 1920, 1080                 # the video itself: full HD, sharp on TVs
+QRS = 10.0                        # seconds the small QR code shows at the start of each chapter
+QR_URL = "https://livebiblereading.com/tv"
 PAUSE = 2.0                       # between chapters (as in the plain videos)
 HERE = os.path.dirname(os.path.abspath(__file__))
 
@@ -95,16 +99,63 @@ def symbol(d, kind, col):
 
 def background(spec, path):
     c0, c1, c2 = [tuple(x) for x in spec.get("palette", [[16, 20, 36], [40, 44, 90], [150, 120, 70]])]
+    dim = lambda c, k: tuple(int(x * k) for x in c)
+    c1, c2 = dim(c1, 0.82), dim(c2, 0.62)                     # TV / night: darker, softer
+    W, H = PW, PH
     img = Image.new("RGB", (W, H)); d = ImageDraw.Draw(img)
     for y in range(H):
         f = y / H
         d.line([(0, y), (W, y)], fill=tuple(int(c0[i] + (c1[i] - c0[i]) * min(1, f * 1.4) + (c2[i] - c1[i]) * max(0, f * 1.4 - 1) * 1.6) for i in range(3)))
     glow = Image.new("L", (W, H), 0)
-    ImageDraw.Draw(glow).ellipse([-300, -420, 760, 380], fill=60)
+    ImageDraw.Draw(glow).ellipse([-300, -420, 760, 380], fill=34)
     img = Image.composite(Image.new("RGB", (W, H), (255, 236, 200)), img, glow.filter(ImageFilter.GaussianBlur(160)))
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); symbol(ImageDraw.Draw(layer), spec.get("symbol", "book"), (255, 255, 255, 14))
     img = Image.alpha_composite(img.convert("RGBA"), layer.filter(ImageFilter.GaussianBlur(2))).convert("RGB")
-    img.save(path)
+    img.resize((1920, 1080), Image.LANCZOS).save(path)
+
+
+def qr_code(size, url=QR_URL):
+    """Round-dot QR code with rounded corner squares and the flame in the middle (high error correction covers the logo).
+    Tested at TV viewing sizes: scans as reliably as a plain square code."""
+    import qrcode
+    CREAM, NAVY = (250, 246, 236, 255), (16, 20, 36, 255)
+    q = qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H, border=0); q.add_data(url); q.make(fit=True)
+    m = q.get_matrix(); n = len(m); S = size * 4; s = S / n
+    img = Image.new("RGBA", (S, S), CREAM); d = ImageDraw.Draw(img)
+    finder = lambda r, k: (r < 7 and k < 7) or (r < 7 and k >= n - 7) or (r >= n - 7 and k < 7)
+    mid, hole = n / 2, n * .22 / 2 + .6
+    for r in range(n):
+        for k in range(n):
+            if not m[r][k] or finder(r, k) or (abs(r + .5 - mid) < hole and abs(k + .5 - mid) < hole): continue
+            p = .08 * s; d.rounded_rectangle([k * s + p, r * s + p, (k + 1) * s - p, (r + 1) * s - p], radius=.5 * s, fill=NAVY)
+    for (r, k) in ((0, 0), (0, n - 7), (n - 7, 0)):
+        x, y = k * s, r * s
+        d.rounded_rectangle([x, y, x + 7 * s, y + 7 * s], radius=2 * s, fill=NAVY)
+        d.rounded_rectangle([x + s, y + s, x + 6 * s, y + 6 * s], radius=1.3 * s, fill=CREAM)
+        d.rounded_rectangle([x + 2 * s, y + 2 * s, x + 5 * s, y + 5 * s], radius=.9 * s, fill=NAVY)
+    L = int(n * .22 * s); fl = Image.open(os.path.join(HERE, "flame.png")).convert("RGBA").resize((L, L), Image.LANCZOS)
+    img.alpha_composite(fl, (int(S / 2 - L / 2),) * 2)
+    return img.resize((size, size), Image.LANCZOS)
+
+
+def qr_tile(path, size):
+    """Dark glass frame with a thin gold edge, the code on a cream square, the address and "live 24/7" under it."""
+    from PIL import ImageFont
+    cap = int(size * .3); t = Image.new("RGBA", (size, size + cap), (0, 0, 0, 0)); d = ImageDraw.Draw(t)
+    d.rounded_rectangle([0, 0, size - 1, size + cap - 1], radius=int(size * .1), fill=(8, 10, 20, 170), outline=(228, 182, 87, 150), width=max(2, size // 110))
+    inner = int(size * .86); o = (size - inner) // 2
+    d.rounded_rectangle([o, o, o + inner, o + inner], radius=int(size * .07), fill=(250, 246, 236, 255))
+    c = qr_code(int(inner * .8)); t.alpha_composite(c, (o + (inner - c.width) // 2,) * 2)
+    font = os.path.join(HERE, "fonts", "IBMPlexSans-SemiBold.ttf")
+    for txt, fs, y, col in (("LiveBibleReading.com", .088, size * .955, (245, 238, 222, 255)), ("LIVE 24/7 · LISTEN TOGETHER", .066, size * 1.075, (228, 182, 87, 255))):
+        f = ImageFont.truetype(font, int(size * fs))
+        while d.textlength(txt, font=f) > size * .9: f = ImageFont.truetype(font, f.size - 1)
+        d.text(((size - d.textlength(txt, font=f)) / 2, y), txt, font=f, fill=col)
+    t.save(path)
+
+
+def srt_time(s):
+    return f"{int(s // 3600):02d}:{int(s % 3600 // 60):02d}:{int(s % 60):02d},{int(round(s % 1 * 1000)) % 1000:03d}"
 
 
 def main():
@@ -142,11 +193,14 @@ def main():
     def add(x):
         nonlocal t
         parts.append(x); t += len(x) / SR
-    add(silence(0.8)); hook_at = t; add(tts(k, spec["hook"])); add(silence(0.5))
-    add(tts(k, spec.get("lead", "Here's a quick introduction to what's ahead."))); add(silence(0.9))
+    caps = []                     # (start, end, text) for the caption file
+    def say(text, **kw):
+        t0 = t; add(tts(k, text, **kw)); caps.append((t0, t, text))
+    add(silence(0.8)); hook_at = t; say(spec["hook"]); add(silence(0.5))
+    say(spec.get("lead", "Here's a quick introduction to what's ahead.")); add(silence(0.9))
     intro_at = t
     for line in spec["intro"]:
-        add(tts(k, line)); add(silence(0.55))
+        say(line); add(silence(0.55))
     add(silence(1.2))
     starts, metas = [], []
     for j, (c, vs) in enumerate(chapters):
@@ -159,25 +213,31 @@ def main():
         if j < len(chapters) - 1: add(silence(PAUSE))
     add(silence(1.5)); outro_at = t
     for line in (spec["outro"] if isinstance(spec["outro"], list) else [spec["outro"]]):
-        add(tts(k, line, speed=0.88)); add(silence(0.5))
+        say(line, speed=0.88); add(silence(0.5))
     outro_end = t
     add(silence(20))             # room for YouTube's end screen (next video + subscribe)
     total = t
+    for (c, vs), m, s0 in zip(chapters, metas, starts):
+        marks = m["verses"]
+        for kk, (v, t0) in enumerate(marks):
+            if kk < len(vs) and vs[kk][1].strip():
+                caps.append((s0 + t0, s0 + t0 + m["lengths"][kk] if "lengths" in m else s0 + (marks[kk + 1][1] if kk + 1 < len(marks) else m["duration"]), vs[kk][1]))
+    caps.sort()
     audio = np.concatenate(parts); audio = np.clip(audio, -0.98, 0.98)
     work = tempfile.mkdtemp(prefix="lbrg-")
     raw = f"{work}/audio.raw"; (audio * 32767).astype(np.int16).tofile(raw)
 
     # ---------- what's on screen ----------
     gold, ink = "&H008CC9F0&", "&H00E8F1F5&"
-    L = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {W}", f"PlayResY: {H}", "WrapStyle: 0", "", "[V4+ Styles]",
+    L = ["[Script Info]", "ScriptType: v4.00+", f"PlayResX: {PW}", f"PlayResY: {PH}", "WrapStyle: 0", "", "[V4+ Styles]",
          "Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding",
-         "Style: Verse,Literata,56,&H00F5F1E8,&H00F5F1E8,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,2,4,90,90,40,1",
-         "Style: Title,IM FELL English SC,104,&H00F5F1E8,&H00F5F1E8,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,0,2,5,90,90,40,1",
-         "Style: Card,IBM Plex Sans SemiBold,34,&H00F5F1E8,&H00F5F1E8,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,1,7,110,110,190,1",
-         "Style: Top,IBM Plex Sans SemiBold,24,&H008CC9F0,&H008CC9F0,&H00000000,&H00000000,0,0,0,0,100,100,2,0,1,0,0,7,70,70,40,1",
-         "Style: Foot,IBM Plex Sans SemiBold,22,&H00E8F1F5,&H00E8F1F5,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,0,0,1,70,70,36,1",
-         "Style: Help,IBM Plex Sans SemiBold,28,&H00F5F1E8,&H00F5F1E8,&H00201814,&H00201814,0,0,0,0,100,100,0,0,3,14,0,3,70,70,70,1",
-         "Style: Badge,IBM Plex Sans SemiBold,25,&H00141E20,&H00141E20,&H0057B6E4,&H0057B6E4,0,0,0,0,100,100,1,0,3,10,0,9,70,70,40,1",
+         "Style: Verse,Literata,56,&H00EDE6D8,&H00EDE6D8,&H00000000,&H64000000,0,0,0,0,114,114,0,0,1,0,2,4,90,90,40,1",
+         "Style: Title,IM FELL English SC,104,&H00F5F1E8,&H00F5F1E8,&H00000000,&H64000000,0,0,0,0,108,108,0,0,1,0,2,5,90,90,40,1",
+         "Style: Card,IBM Plex Sans SemiBold,34,&H00F5F1E8,&H00F5F1E8,&H00000000,&H00000000,0,0,0,0,110,110,0,0,1,0,1,7,110,110,190,1",
+         "Style: Top,IBM Plex Sans SemiBold,24,&H008CC9F0,&H008CC9F0,&H00000000,&H00000000,0,0,0,0,125,125,2,0,1,0,0,7,70,70,40,1",
+         "Style: Foot,IBM Plex Sans SemiBold,22,&H00E8F1F5,&H00E8F1F5,&H00000000,&H00000000,0,0,0,0,125,125,1,0,1,0,0,1,70,70,36,1",
+         "Style: Help,IBM Plex Sans SemiBold,28,&H00F5F1E8,&H00F5F1E8,&H00201814,&H00201814,0,0,0,0,125,125,0,0,3,14,0,3,70,70,70,1",
+         "Style: Badge,IBM Plex Sans SemiBold,25,&H00141E20,&H00141E20,&H0057B6E4,&H0057B6E4,0,0,0,0,125,125,1,0,3,10,0,9,70,70,96,1",
          "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"]
     ev = lambda layer, t0, t1, style, text: L.append(f"Dialogue: {layer},{ts(t0)},{ts(t1)},{style},,0,0,0,,{text}")
     ev(0, 0, total, "Foot", "{\\alpha&H40&}LiveBibleReading.com  ·  listen live, 24/7")
@@ -201,12 +261,12 @@ def main():
         ev(1, s0, s0 + max(first, 2.5), "Title", f"{{\\fad(300,300)}}{esc(cname(c))}\\N{{\\fs44\\fnLiterata\\i1}}{esc(title)}")
         if str(c) in famous:
             ev(2, s0 + 0.5, s0 + 9, "Badge", f"{{\\fad(300,300)}}★ Well-known: {esc(famous[str(c)])}")
-        seen_ch = set()
+        seen_ch = set(); helper_free = max(helper_free, s0 + QRS + 0.5)
         for kk, (v, t0) in enumerate(marks):
             t1 = marks[kk + 1][1] if kk + 1 < len(marks) else m["duration"] + PAUSE * 0.5
             text = esc(vs[kk][1]) if kk < len(vs) else ""
             n = len(text)
-            size = 64 if n < 90 else 56 if n < 160 else 48 if n < 260 else 41 if n < 380 else 35
+            size = 64 if n < 90 else 56 if n < 160 else 47 if n < 250 else 40 if n < 360 else 34 if n < 460 else 30
             ev(1, s0 + t0, s0 + t1, "Verse", f"{{\\fs{size}\\fad(200,0)}}{{\\fs{int(size * .5)}\\c&H8CC9F0&}}{v} {{\\fs{size}\\c&HE8F1F5&}}{text}")
             key = f"{c}:{v}"
             if key in famous:
@@ -223,20 +283,33 @@ def main():
                 helper_free = s0 + t0 + 7
                 break
     # outro and end-screen space
-    ev(0, outro_at, total, "Top", f"{test}  ·  BOOK {bi + 1} OF 66  ·  THANK YOU FOR LISTENING")
-    ev(1, outro_at, outro_end + 1, "Card",
+    ev(0, outro_at, outro_end + 1, "Top", f"{test}  ·  BOOK {bi + 1} OF 66  ·  THANK YOU FOR LISTENING")
+    L.append(f"Dialogue: 1,{ts(outro_at)},{ts(outro_end + 1)},Card,,0,430,0,,"
+       + f"{{\\fad(400,400)\\fs54\\fnIM FELL English SC}}The end of {esc(big)}\\N\\N{{\\fs32\\fnIBM Plex Sans SemiBold\\c{gold}}}Next in this series:{{\\c{ink}}} {esc(spec['next'])}\\N"
+       + f"{{\\c{gold}}}Comments:{{\\c{ink}}} share your thoughts below\\N{{\\c{gold}}}Like & subscribe:{{\\c{ink}}} it helps others find this\\N"
+       + f"{{\\c{gold}}}Live, 24/7:{{\\c{ink}}} LiveBibleReading.com")
+    if False: ev(1, outro_at, outro_end + 1, "Card",
        f"{{\\fad(400,400)\\fs54\\fnIM FELL English SC}}The end of {esc(big)}\\N\\N{{\\fs32\\fnIBM Plex Sans SemiBold\\c{gold}}}Next in this series:{{\\c{ink}}} {esc(spec['next'])}\\N"
        f"{{\\c{gold}}}Comments:{{\\c{ink}}} share your thoughts below\\N{{\\c{gold}}}Like & subscribe:{{\\c{ink}}} it helps others find the Bible read aloud\\N{{\\c{gold}}}Live, 24/7:{{\\c{ink}}} hear it together at LiveBibleReading.com")
-    ev(1, outro_end + 1, total, "Card", f"{{\\fad(400,0)\\fs40\\fnIM FELL English SC}}Keep listening\\N{{\\fs28\\fnIBM Plex Sans SemiBold\\c{ink}}}The whole Bible, in order, with every word on screen.")
+    ev(1, outro_end + 1, total, "Card", f"{{\\an8\\pos(640,60)\\fad(400,0)\\fs40\\fnIM FELL English SC}}Keep listening\\N{{\\fs28\\fnIBM Plex Sans SemiBold\\c{ink}}}The whole Bible, in order, with every word on screen.")
     ass = f"{work}/book.ass"; open(ass, "w").write("\n".join(L) + "\n")
     bg = f"{work}/bg.png"; background(spec, bg)
+    qs, qb = f"{work}/qr-small.png", f"{work}/qr-big.png"
+    qr_tile(qs, 260); qr_tile(qb, 420)
+    small_on = [(intro_at, starts[0] - 0.4)] + [(s0, s0 + QRS) for s0 in starts]
+    en_s = "+".join(f"between(t,{x:.2f},{y:.2f})" for x, y in small_on)
+    en_b = f"between(t,{outro_at:.2f},{outro_end + 1:.2f})"
     os.makedirs(a.out, exist_ok=True)
     base = f"{a.out}/{bi + 1:02d}-{name.replace(' ', '-')}"
     subprocess.run(["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-loop", "1", "-framerate", str(FPS), "-i", bg,
-                    "-f", "s16le", "-ar", str(SR), "-ac", "1", "-i", raw,
-                    "-filter_complex", f"[0:v]ass={ass}:fontsdir={a.fonts},format=yuv420p[v];[1:a]aresample=48000[a]",
+                    "-f", "s16le", "-ar", str(SR), "-ac", "1", "-i", raw, "-loop", "1", "-framerate", str(FPS), "-i", qs, "-loop", "1", "-framerate", str(FPS), "-i", qb,
+                    "-filter_complex", f"[0:v]ass={ass}:fontsdir={a.fonts}[t];[t][2:v]overlay=x=W-w-70:y=H-h-80:enable='{en_s}'[u];"
+                                       f"[u][3:v]overlay=x=W-w-120:y=(H-h)/2+20:enable='{en_b}',format=yuv420p[v];[1:a]loudnorm=I=-15:TP=-1.5:LRA=11,aresample=48000[a]",
                     "-map", "[v]", "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage",
-                    "-crf", "28", "-r", str(FPS), "-g", str(FPS * 10), "-c:a", "aac", "-b:a", "80k", "-ac", "1", "-movflags", "+faststart", base + ".mp4"], check=True)
+                    "-crf", "30", "-r", str(FPS), "-g", str(FPS * 10), "-c:a", "aac", "-b:a", "80k", "-ac", "1", "-movflags", "+faststart", base + ".mp4"], check=True)
+    with open(base + ".srt", "w") as f:       # exact captions: YouTube reads them for search, and they help deaf and hard-of-hearing viewers
+        for n_, (t0, t1, text) in enumerate(caps, 1):
+            f.write(f"{n_}\n{srt_time(t0)} --> {srt_time(max(t1, t0 + 0.8))}\n{re.sub(r'\\s+', ' ', text).strip()}\n\n")
     json.dump({"intro": 0, "chapters": [[c, round(s, 2)] for (c, _), s in zip(chapters, starts)], "outro": round(outro_at, 2), "total": round(total, 2)},
               open(base + ".json", "w"))
     print(base + ".mp4", f"{total / 60:.1f} min")
