@@ -1,0 +1,37 @@
+{
+  "batch": "december",
+  "note": "First batch: 24 Advent Shorts (one each morning, Dec 1-24) + 6 bridge Shorts. ref = [book index from 0, chapter, first verse, last verse]. Times are Pacific.",
+  "shorts": [
+    {"id": "advent-01", "date": "2026-12-01", "time": "3:00 AM", "series": "Advent", "day": 1, "ref": [22, 9, 6, 6], "hook": "The child who was promised"},
+    {"id": "advent-02", "date": "2026-12-02", "time": "3:00 AM", "series": "Advent", "day": 2, "ref": [22, 7, 14, 14], "hook": "A sign, given 700 years early"},
+    {"id": "advent-03", "date": "2026-12-03", "time": "3:00 AM", "series": "Advent", "day": 3, "ref": [32, 5, 2, 2], "hook": "Why a tiny town called Bethlehem?"},
+    {"id": "advent-04", "date": "2026-12-04", "time": "3:00 AM", "series": "Advent", "day": 4, "ref": [22, 9, 2, 2], "hook": "For anyone walking in the dark"},
+    {"id": "advent-05", "date": "2026-12-05", "time": "3:00 AM", "series": "Advent", "day": 5, "ref": [22, 40, 3, 3], "hook": "Prepare the way"},
+    {"id": "advent-06", "date": "2026-12-06", "time": "3:00 AM", "series": "Advent", "day": 6, "ref": [22, 11, 1, 2], "hook": "A shoot from an old stump"},
+    {"id": "advent-07", "date": "2026-12-07", "time": "3:00 AM", "series": "Advent", "day": 7, "ref": [23, 23, 5, 6], "hook": "The King who was coming"},
+    {"id": "advent-08", "date": "2026-12-08", "time": "3:00 AM", "series": "Advent", "day": 8, "ref": [41, 1, 26, 28], "hook": "An angel visits a young woman"},
+    {"id": "advent-09", "date": "2026-12-09", "time": "3:00 AM", "series": "Advent", "day": 9, "ref": [41, 1, 30, 31], "hook": "Fear not, Mary"},
+    {"id": "advent-10", "date": "2026-12-10", "time": "3:00 AM", "series": "Advent", "day": 10, "ref": [41, 1, 32, 33], "hook": "A kingdom with no end"},
+    {"id": "advent-11", "date": "2026-12-11", "time": "3:00 AM", "series": "Advent", "day": 11, "ref": [41, 1, 37, 38], "hook": "Nothing is impossible"},
+    {"id": "advent-12", "date": "2026-12-12", "time": "3:00 AM", "series": "Advent", "day": 12, "ref": [41, 1, 46, 49], "hook": "Mary's song"},
+    {"id": "advent-13", "date": "2026-12-13", "time": "3:00 AM", "series": "Advent", "day": 13, "ref": [39, 1, 20, 21], "hook": "Joseph's dream"},
+    {"id": "advent-14", "date": "2026-12-14", "time": "3:00 AM", "series": "Advent", "day": 14, "ref": [39, 1, 22, 23], "hook": "God with us"},
+    {"id": "advent-15", "date": "2026-12-15", "time": "3:00 AM", "series": "Advent", "day": 15, "ref": [41, 2, 4, 5], "hook": "The road to Bethlehem"},
+    {"id": "advent-16", "date": "2026-12-16", "time": "3:00 AM", "series": "Advent", "day": 16, "ref": [41, 2, 6, 7], "hook": "No room at the inn"},
+    {"id": "advent-17", "date": "2026-12-17", "time": "3:00 AM", "series": "Advent", "day": 17, "ref": [41, 2, 8, 9], "hook": "Shepherds in the night"},
+    {"id": "advent-18", "date": "2026-12-18", "time": "3:00 AM", "series": "Advent", "day": 18, "ref": [41, 2, 10, 11], "hook": "Good tidings of great joy"},
+    {"id": "advent-19", "date": "2026-12-19", "time": "3:00 AM", "series": "Advent", "day": 19, "ref": [41, 2, 13, 14], "hook": "Peace on earth"},
+    {"id": "advent-20", "date": "2026-12-20", "time": "3:00 AM", "series": "Advent", "day": 20, "ref": [41, 2, 15, 16], "hook": "Let us now go and see"},
+    {"id": "advent-21", "date": "2026-12-21", "time": "3:00 AM", "series": "Advent", "day": 21, "ref": [39, 2, 1, 2], "hook": "Wise men follow a star"},
+    {"id": "advent-22", "date": "2026-12-22", "time": "3:00 AM", "series": "Advent", "day": 22, "ref": [39, 2, 10, 11], "hook": "Gifts for a King"},
+    {"id": "advent-23", "date": "2026-12-23", "time": "3:00 AM", "series": "Advent", "day": 23, "ref": [41, 2, 19, 20], "hook": "Mary kept these things in her heart"},
+    {"id": "advent-24", "date": "2026-12-24", "time": "3:00 AM", "series": "Advent", "day": 24, "ref": [42, 1, 14, 14], "hook": "Christmas Eve: the Word became flesh"},
+
+    {"id": "sleep-ps4", "date": "2026-11-30", "time": "7:00 PM", "ref": [18, 4, 8, 8], "hook": "Can't sleep? Let these words settle your heart.", "topic": "sleep"},
+    {"id": "money-mt6", "date": "2026-12-02", "time": "7:00 PM", "ref": [39, 6, 31, 33], "hook": "Stressed about money tonight?", "topic": "money"},
+    {"id": "anger-jas1", "date": "2026-12-05", "time": "7:00 PM", "ref": [58, 1, 19, 20], "hook": "Before you say something you'll regret…", "topic": "anger"},
+    {"id": "work-col3", "date": "2026-12-08", "time": "7:00 PM", "ref": [50, 3, 23, 24], "hook": "Tired of your job? Read this.", "topic": "work"},
+    {"id": "parents-is40", "date": "2026-12-11", "time": "7:00 PM", "ref": [22, 40, 11, 11], "hook": "For every tired parent tonight", "topic": "parents"},
+    {"id": "grief-rev21", "date": "2026-12-18", "time": "7:00 PM", "ref": [65, 21, 4, 4], "hook": "For anyone missing someone this Christmas", "topic": "grief"}
+  ]
+}
